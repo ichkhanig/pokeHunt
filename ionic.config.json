@@ -1,0 +1,7 @@
+{
+  "name": "pokeHunt",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
