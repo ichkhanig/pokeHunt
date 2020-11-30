@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="menu"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Choose a new hunt</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar animated (ionInput)="findPokemon($event)"></ion-searchbar>
+
+  <div *ngFor="let pkmn of pkmnList">
+
+    <ion-button (click)="onGoToName(pkmn.nameEnglish)">
+      #{{pkmn.idNational}} {{pkmn.nameEnglish}} {{pkmn.nameFrench}} {{pkmn.nameJapanese}}
+      <div>{{pkmn.types}}</div>
+      <ion-img slot="end" [src]="pkmn.regularAnimation"></ion-img>
+    </ion-button>
+
+  </div>
+
+</ion-content>

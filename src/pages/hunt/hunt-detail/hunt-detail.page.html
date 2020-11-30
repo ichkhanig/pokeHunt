@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs/tab/hunt"></ion-back-button>
+    </ion-buttons>
+    <ion-title>hunt-detail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <button class="btn-change-view" (click)="changeView = !changeView">
+    <ion-img class="hunt-detail" [src]="pokemon.shinyAnimation" *ngIf="changeView"></ion-img>
+    <ion-img class="hunt-detail" [src]="pokemon.regularAnimation" *ngIf="!changeView"></ion-img>
+  </button>
+</ion-content>

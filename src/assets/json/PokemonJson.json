@@ -1,0 +1,137 @@
+[
+  {
+    "id": null,
+    "idNational": "001",
+    "idRegional": null,
+
+    "nameEnglish": "Bulbasaur",
+    "nameFrench": "Bulbizarre",
+    "nameJapanese": "フシギダネ",
+
+    "regularForm": "../assets/artwork/001Bulbasaur.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animation/Bulbasaur.gif",
+    "shinyAnimation": "../assets/animation/Bulbasaur_Shiny.gif",
+
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "region": "Kanto",
+    "evolutionTree": [
+      "Bulbasaur",
+      "Ivysaur"
+    ],
+    "forms": [],
+
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": "002",
+    "idRegional": null,
+
+    "nameEnglish": "Ivysaur",
+    "nameFrench": "Herbizarre",
+    "nameJapanese": "フシギソウ",
+
+    "regularForm": "../assets/artwork/002Ivysaur.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animation/Ivysaur.gif",
+    "shinyAnimation": "../assets/animation/Ivysaur_Shiny.gif",
+
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "region": "Kanto",
+    "evolutionTree": [
+      "Bulbasaur",
+      "Ivysaur"
+    ],
+    "forms": [],
+
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": "052",
+    "idRegional": null,
+
+    "nameEnglish": "Meowth",
+    "nameFrench": "Miaouss",
+    "nameJapanese": "ニャース",
+
+    "regularForm": "../assets/artwork/052Meowth.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animation/Meowth.gif",
+    "shinyAnimation": "../assets/animation/Meowth_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Kanto",
+    "evolutionTree": [],
+    "forms": [
+      "Meowth",
+      "Alolan Meowth",
+      "Galarian Meowth"
+    ],
+
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": "052",
+    "idRegional": null,
+
+    "nameEnglish": "Alolan Meowth",
+    "nameFrench": "Miaouss d'Alola",
+    "nameJapanese": "アローラのニャース",
+
+    "regularForm": "../assets/artwork/052Meowth-Alola.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animation/Meowth_Alola.gif",
+    "shinyAnimation": "../assets/animation/Meowth_Alola_Shiny.gif",
+
+    "types": [
+      "Dark"
+    ],
+    "region": "Alola",
+    "evolutionTree": [],
+    "forms": [
+      "Meowth",
+      "Alolan Meowth",
+      "Galarian Meowth"
+    ],
+
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": "052",
+    "idRegional": null,
+
+    "nameEnglish": "Galarian Meowth",
+    "nameFrench": "Miaouss de Galar",
+    "nameJapanese": "ガラルのニャース",
+
+    "regularForm": "../assets/artwork/052Meowth-Galar.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animation/Meowth_Galar.gif",
+    "shinyAnimation": "../assets/animation/Meowth_Galar_Shiny.gif",
+
+    "types": [
+      "Steel"
+    ],
+    "region": "Galar",
+    "evolutionTree": [],
+    "forms": [
+      "Meowth",
+      "Alolan Meowth",
+      "Galarian Meowth"
+    ],
+
+    "counter": null
+  }
+]

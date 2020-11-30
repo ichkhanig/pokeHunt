@@ -1,0 +1,39 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar class="header">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="new"></ion-back-button>
+    </ion-buttons>
+    <ion-img class="main-img" [src]="pokemon.regularForm"></ion-img>
+    <ion-title slot="end">#{{pokemon.idNational}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+
+
+
+<ion-content fullscreen>
+  <ion-label>padding</ion-label>
+  <ion-item lines="none" *ngIf="evolutionList.length != 0">
+    <ion-input>Evolution Tree</ion-input>
+    <div *ngFor="let pkmn of evolutionList">
+      <button class="btn-menu" routerLink="/new/{{pkmn.nameEnglish}}" routerDirection="root">
+        <ion-img [src]="pkmn.regularForm"></ion-img>
+      </button>
+    </div>
+  </ion-item>
+
+  <ion-item lines="none" *ngIf="formList.length != 0">
+    <ion-input>Alternative forms</ion-input>
+    <div *ngFor="let pkmn of formList">
+      <button class="btn-menu" routerLink="/new/{{pkmn.nameEnglish}}" routerDirection="root">
+        <ion-img [src]="pkmn.regularForm"></ion-img>
+      </button>
+    </div>
+  </ion-item>
+
+  <button class="btn-menu" (click)="onAddPokemonToHunt(pokemon.nameEnglish)" routerLink="/tabs" routerDirection="root">
+    Begin Hunt !
+  </button>
+</ion-content>

@@ -1,0 +1,16 @@
+ion-toolbar, ion-header {
+  --background: transparent;
+}
+
+ion-content {
+  --ion-background-color: linear-gradient(rgba(23, 207, 161, 0.5), rgba(23, 207, 161, 0.9));
+}
+
+ion-item {
+  --background: transparent;
+}
+
+.main-img {
+  width: 50%;
+  height: 40%;
+}

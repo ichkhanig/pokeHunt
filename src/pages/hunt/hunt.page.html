@@ -1,0 +1,14 @@
+<ion-content>
+
+  <div *ngFor="let pkmn of pkmnList">
+
+    <ion-button (click)="onGoToDetail(pkmn.id)">
+      #{{pkmn.idNational}} {{pkmn.nameEnglish}} {{pkmn.nameFrench}} {{pkmn.nameJapanese}}
+      <div>{{pkmn.types}}</div>
+      <ion-img slot="end" [src]="pkmn.regularAnimation"></ion-img>
+    </ion-button>
+    {{pkmn.id}}
+
+  </div>
+
+</ion-content>
