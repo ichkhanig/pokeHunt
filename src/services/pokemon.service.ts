@@ -78,14 +78,56 @@ export class PokemonService {
   //TODO produce the colors for all types
   produceTypeColor(type: string) {
     switch (type) {
+      case "Dark":
+        return "#704241";
+        break;
+      case "Electric":
+        return "#f0dc82";
+        break;
+      case "Fire":
+        return "#ff6e4a";
+        break;
       case "Grass":
-        console.log("he's green");
+        return "#8fd79f";
+        break;
+      case "Normal":
+        return "#c0c0c0";
         break;
       case "Steel":
-        console.log("he's grey");
+        return "#838996";
         break;
       default:
-        console.log("got a problem here");
+        return "white";
+        break;
+    }
+  }
+
+  //TODO produce the icons for all types
+  produceTypeIcon(type: string) {
+    switch (type) {
+      case "Dark":
+        return "./assets/type/DarkIC.png";
+        break;
+      case "Electric":
+        return "./assets/type/ElectricIC.png";
+        break;
+      case "Fire":
+        return "./assets/type/FireIC.png";
+        break;
+      case "Grass":
+        return "./assets/type/GrassIC.png";
+        break;
+      case "Normal":
+        return "./assets/type/NormalIC.png";
+        break;
+      case "Poison":
+        return "./assets/type/PoisonIC.png";
+        break;
+      case "Steel":
+        return "./assets/type/SteelIC.png";
+        break;
+      default:
+        return "";
         break;
     }
   }

@@ -1,22 +1,22 @@
 <ion-content>
   <div class="bg-menu">
+    <div class="btn-dex">
+      <button id="anim1" class="btn-menu" (click)="toggleAnimation1()" routerLink="" routerDirection="forward">
+        <img src="../../assets/theme/menu-dex-btn.png" alt="btn-img">
+      </button>
+      <h1>Pokedex</h1>
+    </div>
     <div class="btn-new">
-      <button class="btn-menu" routerLink="/new" routerDirection="forward">
-        <img src="" alt="btn-img">
+      <button id="anim2" class="btn-menu" (click)="toggleAnimation2()" routerLink="/new" routerDirection="forward">
+        <img src="../../assets/theme/menu-new-btn.png" alt="btn-img">
       </button>
       <h1>New Hunt</h1>
     </div>
     <div class="btn-hunt">
-      <button class="btn-menu" routerLink="/tabs" routerDirection="forward">
-        <img src="" alt="btn-img">
+      <button id="anim3" class="btn-menu" (click)="toggleAnimation3()" routerLink="/tabs" routerDirection="forward">
+        <img src="../../assets/theme/menu-hunt-btn.png" alt="btn-img">
       </button>
       <h1>Hunt List</h1>
-    </div>
-    <div class="btn-dex">
-      <button class="btn-menu" routerLink="" routerDirection="forward">
-        <img src="" alt="btn-img">
-      </button>
-      <h1>Pokedex</h1>
     </div>
   </div>
 </ion-content>

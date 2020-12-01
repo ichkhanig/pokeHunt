@@ -30,8 +30,12 @@ export class NewDetailPage implements OnInit {
     console.log(this.formList);
   }
 
-  getBackgroundColor(type: string) {
+  getTypeColor(type: string) {
     return this.pokemonService.produceTypeColor(type);
+  }
+
+  getTypeIcon(type: string) {
+    return this.pokemonService.produceTypeIcon(type);
   }
 
   onAddPokemonToHunt(name: string) {

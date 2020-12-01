@@ -1,23 +1,25 @@
-<ion-header>
+<ion-header class="ion-no-border">
   <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button defaultHref="menu"></ion-back-button>
-    </ion-buttons>
-    <ion-title>Choose a new hunt</ion-title>
+    <ion-img class="bg-new" src="../../assets/theme/pokeball-logo.png" alt="pokeball-logo"></ion-img>
+    <ion-title class="header-title">Pokédex</ion-title>
+    <ion-searchbar color="light" placeholder="Search for a Pokemon" animated (ionInput)="findPokemon($event)"></ion-searchbar>
+    <ion-item lines="none">The Pokédex contains detailed stats for every creature from the Pokémon games. Use the Advanced Search to explore Pokémon by type, weakness, Ability, and more (to come) !</ion-item>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-searchbar animated (ionInput)="findPokemon($event)"></ion-searchbar>
+<ion-content fullscreen>
+  <ion-button *ngFor="let pkmn of pkmnList"
+              [style]="{'--background': getTypeColor(pkmn.types[0])}"
+              (click)="onGoToName(pkmn.nameEnglish)">
 
-  <div *ngFor="let pkmn of pkmnList">
+    <div class="pkmnNumber">#{{pkmn.idNational}}</div>
+    <div class="pkmnName">{{pkmn.nameEnglish}}</div>
 
-    <ion-button (click)="onGoToName(pkmn.nameEnglish)">
-      #{{pkmn.idNational}} {{pkmn.nameEnglish}} {{pkmn.nameFrench}} {{pkmn.nameJapanese}}
-      <div>{{pkmn.types}}</div>
-      <ion-img slot="end" [src]="pkmn.regularAnimation"></ion-img>
-    </ion-button>
+    <img class="typeIcon" [src]="getTypeIcon(pkmn.types[0])">
+    <img class="typeIcon2" *ngIf="pkmn.types[1] !== undefined" [src]="getTypeIcon(pkmn.types[1])">
 
-  </div>
+    <div class="icon"></div>
+    <ion-img class="pkmnRegularForm" slot="end" [src]="pkmn.regularForm"></ion-img>
 
+  </ion-button>
 </ion-content>

@@ -1,39 +1,77 @@
 <ion-header class="ion-no-border">
-  <ion-toolbar class="header">
+  <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="new"></ion-back-button>
+      <ion-back-button color="light" defaultHref="new"></ion-back-button>
     </ion-buttons>
-    <ion-img class="main-img" [src]="pokemon.regularForm"></ion-img>
-    <ion-title slot="end">#{{pokemon.idNational}}</ion-title>
+    <ion-title class="header-num" slot="end">#{{pokemon.idNational}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
+<ion-content fullscreen [style]="{'--background': 'linear-gradient(' + getTypeColor(pokemon.types[0]) + ',' + getTypeColor(pokemon.types[0]) + '99 )'}">
+
+  <ion-grid>
+    <ion-row class="firstRow">
+      <ion-col class="ion-margin">
+        <ion-item lines="none">
+          <ion-img class="bg-new-detail" src="./assets/theme/pokeball-logo-detail.png" alt="pokeball-logo"></ion-img>
+          <ion-img class="main-img" [src]="pokemon.regularForm"></ion-img>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="desc">
+        <ion-title class="pkmnName">{{pokemon.nameEnglish}}</ion-title>
+        <img class="typeIcon" [src]="getTypeIcon(pokemon.types[0])">
+        <img class="typeIcon2" *ngIf="pokemon.types[1] !== undefined" [src]="getTypeIcon(pokemon.types[1])">
+      </ion-col>
+    </ion-row>
 
 
 
+    <ion-title class="evolutionTitle" *ngIf="evolutionList.length != 0">Evolution Tree</ion-title>
+    <ion-row class="evolutionRow" *ngIf="evolutionList.length != 0">
+      <ion-col class="evolutionCol" *ngFor="let pkmn of evolutionList">
+        <button class="btn-new" [style]="{'background': getTypeColor(pkmn.types[0])}" routerLink="/new/{{pkmn.nameEnglish}}" routerDirection="root">
+          <img class="evolutionImg" [src]="pkmn.regularForm">
+          <ion-title class="imgTitle">#{{pkmn.idNational}}</ion-title>
+          <ion-title class="imgTitle">{{pkmn.nameEnglish}}</ion-title>
+        </button>
+      </ion-col>
+    </ion-row>
 
 
-<ion-content fullscreen>
-  <ion-label>padding</ion-label>
-  <ion-item lines="none" *ngIf="evolutionList.length != 0">
-    <ion-input>Evolution Tree</ion-input>
-    <div *ngFor="let pkmn of evolutionList">
-      <button class="btn-menu" routerLink="/new/{{pkmn.nameEnglish}}" routerDirection="root">
-        <ion-img [src]="pkmn.regularForm"></ion-img>
-      </button>
-    </div>
-  </ion-item>
+    <ion-title class="formTitle" *ngIf="formList.length != 0">Alternative forms</ion-title>
+    <ion-row class="formRow" *ngIf="formList.length != 0">
+      <ion-col class="formCol" *ngFor="let pkmn of formList">
+        <button class="btn-new" [style]="{'background': getTypeColor(pkmn.types[0])}" routerLink="/new/{{pkmn.nameEnglish}}" routerDirection="root">
+          <img class="formImg" [src]="pkmn.regularForm">
+          <ion-title class="imgTitle">#{{pkmn.idNational}}</ion-title>
+          <ion-title class="imgTitle">{{pkmn.nameEnglish}}</ion-title>
+        </button>
+      </ion-col>
+    </ion-row>
 
-  <ion-item lines="none" *ngIf="formList.length != 0">
-    <ion-input>Alternative forms</ion-input>
-    <div *ngFor="let pkmn of formList">
-      <button class="btn-menu" routerLink="/new/{{pkmn.nameEnglish}}" routerDirection="root">
-        <ion-img [src]="pkmn.regularForm"></ion-img>
-      </button>
-    </div>
-  </ion-item>
 
-  <button class="btn-menu" (click)="onAddPokemonToHunt(pokemon.nameEnglish)" routerLink="/tabs" routerDirection="root">
-    Begin Hunt !
-  </button>
+    <ion-title class="shinyTitle">Shiny forms</ion-title>
+    <ion-row class="shinyRow">
+
+      <ion-col class="shinyCol">
+        <img [src]="pokemon.regularAnimation">
+        <ion-title class="imgTitle">{{pokemon.nameEnglish}}</ion-title>
+      </ion-col>
+
+      <ion-col class="shinyCol">
+        <img [src]="pokemon.shinyAnimation">
+        <ion-title class="imgTitle">Shiny {{pokemon.nameEnglish}}</ion-title>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-button class="btn-hunt" [style]="{'--background': getTypeColor(pokemon.types[0])}" (click)="onAddPokemonToHunt(pokemon.nameEnglish)" routerLink="/tabs" routerDirection="root">
+        Begin Hunt !
+      </ion-button>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>

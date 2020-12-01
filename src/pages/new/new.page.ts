@@ -27,4 +27,12 @@ export class NewPage implements OnInit {
     this.router.navigate(['/new/' + name]);
   }
 
+  getTypeColor(type: string) {
+    return this.pokemonService.produceTypeColor(type);
+  }
+
+  getTypeIcon(type: string) {
+    return this.pokemonService.produceTypeIcon(type);
+  }
+
 }

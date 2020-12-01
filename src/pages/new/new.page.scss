@@ -1,8 +1,104 @@
-
-ion-toolbar, ion-header, ion-title {
-  --background: transparent;
+ion-toolbar, ion-header {
+  --background: white;
 }
 
 ion-content {
   --ion-background-color: white;
+}
+
+ion-searchbar {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  --border-radius: 25px;
+}
+
+ion-item {
+  color: black;
+  --background: transparent;
+  width: 80%;
+  margin: 30px auto;
+  margin-bottom: 30px;
+}
+
+ion-button {
+  display: block;
+  width: 90%;
+  height: 130px;
+  margin: 20px auto;
+  --border-radius: 30px;
+}
+
+.bg-new {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  right: -85%;
+  top: -80%;
+  opacity: 0.1;
+}
+
+.header-title {
+  padding: 30px;
+  margin-left: 4%;
+  font-size: 30px;
+  font-weight: 900;
+  background: -webkit-linear-gradient(left, #E74C3C ,#F0B27A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pkmnNumber {
+  position: fixed;
+  font-size: xx-large;
+  font-weight: 900;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+}
+
+.pkmnName {
+  position: fixed;
+  color: black;
+  opacity: 0.6;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Bahnschrift;
+  top: 34%;
+  left: 20%;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+
+.typeIcon, .typeIcon2 {
+  position: fixed;
+  width: 90px;
+  height: 22px;
+  bottom: 20px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.typeIcon {
+  left: 30px;
+}
+
+.typeIcon2 {
+  left: 130px;
+}
+
+.icon {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  right: -70px;
+}
+
+.pkmnRegularForm {
+  position: fixed;
+  width: 100px;
+  height: 110px;
+  right: 20px;
 }
