@@ -1,0 +1,65 @@
+.btn-hunt {
+  display: block;
+  width: 90%;
+  height: 130px;
+  margin: 20px auto;
+  --border-radius: 30px;
+}
+
+.pkmnNumber {
+  position: fixed;
+  font-size: xx-large;
+  font-weight: 900;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+}
+
+.pkmnName {
+  position: fixed;
+  color: black;
+  opacity: 0.6;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Bahnschrift;
+  top: 34%;
+  left: 20%;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+
+.counterTitle {
+  position: fixed;
+  font-size: x-large;
+  font-weight: 900;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+
+.icon {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  right: -70px;
+}
+
+.pkmnRegularForm {
+  position: fixed;
+  width: 100px;
+  height: 110px;
+  right: 20px;
+}
+
+.btn-add {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  --background: -webkit-linear-gradient(left, #E74C3C ,#F0B27A);
+  --border-radius: 50%;
+}

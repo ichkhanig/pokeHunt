@@ -12,12 +12,15 @@ export class Pokemon {
   shinyForm: string;
   regularAnimation: string;
   shinyAnimation: string;
+  regularAnimationBack: string;
+  shinyAnimationBack: string;
 
   types: string[];
   region: string;
   evolutionTree: string[];
   forms: string[];
 
+  shinyLocked: boolean;
   counter: number;
 
   constructor() {}

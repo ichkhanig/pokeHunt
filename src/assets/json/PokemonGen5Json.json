@@ -1,0 +1,96 @@
+[
+  {
+    "id": null,
+    "idNational": "562",
+    "idRegional": null,
+
+    "nameEnglish": "Yamask",
+    "nameFrench": "Tutafeh",
+    "nameJapanese": "デスマス",
+
+    "regularForm": "../assets/artworkGen5/562Yamask.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Yamask.gif",
+    "shinyAnimation": "../assets/animationGen5/Yamask_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Yamask.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Yamask_Shiny.gif",
+
+    "types": [
+      "Ghost"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Yamask",
+      "Cofagrigus"
+    ],
+    "forms": [
+      "Yamask",
+      "Galarian Yamask"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": "562",
+    "idRegional": null,
+
+    "nameEnglish": "Galarian Yamask",
+    "nameFrench": "Tutafeh de Galar",
+    "nameJapanese": "ガラルのデスマス",
+
+    "regularForm": "../assets/artworkGen5/562Yamask-Galar.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Yamask_Galar.gif",
+    "shinyAnimation": "../assets/animationGen5/Yamask_Galar_Shiny.gif",
+    "regularAnimationBack": null,
+    "shinyAnimationBack": null,
+
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "region": "Galar",
+    "evolutionTree": [
+      "Galarian Yamask",
+      "Runerigus"
+    ],
+    "forms": [
+      "Yamask",
+      "Galarian Yamask"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": "563",
+    "idRegional": null,
+
+    "nameEnglish": "Cofagrigus",
+    "nameFrench": "Tutankafer",
+    "nameJapanese": "デスカーン",
+
+    "regularForm": "../assets/artworkGen5/563Cofagrigus.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Cofagrigus.gif",
+    "shinyAnimation": "../assets/animationGen5/Cofagrigus_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Cofagrigus.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Cofagrigus_Shiny.gif",
+
+    "types": [
+      "Ghost"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Yamask",
+      "Cofagrigus"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  }
+]

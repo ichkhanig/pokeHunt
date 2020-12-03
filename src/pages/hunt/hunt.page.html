@@ -1,14 +1,20 @@
-<ion-content>
+<ion-content fullscreen>
+  <ion-button *ngFor="let pkmn of pkmnList"
+              class="btn-hunt"
+              [style]="{'--background': getTypeColor(pkmn.types[0])}"
+              (click)="onGoToName(pkmn.nameEnglish)">
 
-  <div *ngFor="let pkmn of pkmnList">
+    <div class="pkmnNumber">#{{pkmn.idNational}}</div>
+    <div class="pkmnName">{{pkmn.nameEnglish}}</div>
 
-    <ion-button (click)="onGoToDetail(pkmn.id)">
-      #{{pkmn.idNational}} {{pkmn.nameEnglish}} {{pkmn.nameFrench}} {{pkmn.nameJapanese}}
-      <div>{{pkmn.types}}</div>
-      <ion-img slot="end" [src]="pkmn.regularAnimation"></ion-img>
-    </ion-button>
-    {{pkmn.id}}
+    <ion-title class="counterTitle">Counter: {{pkmn.counter}}</ion-title>
 
-  </div>
+    <div class="icon"></div>
+    <ion-img class="pkmnRegularForm" slot="end" [src]="pkmn.regularForm"></ion-img>
 
+  </ion-button>
+
+  <ion-button class="btn-add" routerLink="/new" routerDirection="forward">
+    +
+  </ion-button>
 </ion-content>

@@ -19,6 +19,10 @@ export class HuntPage implements OnInit {
     console.log(this.pkmnList);
   }
 
+  getTypeColor(type: string) {
+    return this.pokemonService.produceTypeColor(type);
+  }
+
   onGoToDetail(id: number) {
     this.router.navigate(['/hunt/' + id]);
   }

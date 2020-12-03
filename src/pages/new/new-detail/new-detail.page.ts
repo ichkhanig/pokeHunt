@@ -25,9 +25,6 @@ export class NewDetailPage implements OnInit {
     });
     this.evolutionList = this.pokemonService.findEvolutionOrForms(this.pokemon.evolutionTree);
     this.formList = this.pokemonService.findEvolutionOrForms(this.pokemon.forms);
-    console.log(this.pokemon);
-    console.log(this.evolutionList);
-    console.log(this.formList);
   }
 
   getTypeColor(type: string) {

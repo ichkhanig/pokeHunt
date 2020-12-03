@@ -7,7 +7,8 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content fullscreen [style]="{'--background': 'linear-gradient(' + getTypeColor(pokemon.types[0]) + ',' + getTypeColor(pokemon.types[0]) + '99 )'}">
+<ion-content fullscreen [style]="pokemon.types[1] !== undefined ? {'--background': 'linear-gradient(' + getTypeColor(pokemon.types[0]) + ',' + getTypeColor(pokemon.types[1]) + ')'}
+                                           :  {'--background': 'linear-gradient(' + getTypeColor(pokemon.types[0]) + ',' + getTypeColor(pokemon.types[0]) + '99 )'}">
 
   <ion-grid>
     <ion-row class="firstRow">
@@ -52,23 +53,31 @@
     </ion-row>
 
 
-    <ion-title class="shinyTitle">Shiny forms</ion-title>
-    <ion-row class="shinyRow">
+    <ion-title *ngIf="pokemon.shinyAnimation != null" class="shinyTitle">Shiny forms</ion-title>
+    <div *ngIf="pokemon.shinyAnimation != null" class="shinyBlock">
+      <ion-row>
+        <ion-col class="shinyCol">
+          <img [src]="pokemon.regularAnimation">
+        </ion-col>
 
-      <ion-col class="shinyCol">
-        <img [src]="pokemon.regularAnimation">
-        <ion-title class="imgTitle">{{pokemon.nameEnglish}}</ion-title>
-      </ion-col>
+        <ion-col class="shinyCol">
+          <img [src]="pokemon.shinyAnimation">
+        </ion-col>
+      </ion-row>
 
-      <ion-col class="shinyCol">
-        <img [src]="pokemon.shinyAnimation">
-        <ion-title class="imgTitle">Shiny {{pokemon.nameEnglish}}</ion-title>
-      </ion-col>
-    </ion-row>
+      <ion-row *ngIf="pokemon.regularAnimationBack != null">
+        <ion-col class="shinyCol">
+          <img [src]="pokemon.regularAnimationBack">
+        </ion-col>
 
+        <ion-col class="shinyCol">
+          <img [src]="pokemon.shinyAnimationBack">
+        </ion-col>
+      </ion-row>
+    </div>
 
     <ion-row>
-      <ion-button class="btn-hunt" [style]="{'--background': getTypeColor(pokemon.types[0])}" (click)="onAddPokemonToHunt(pokemon.nameEnglish)" routerLink="/tabs" routerDirection="root">
+      <ion-button [disabled]="pokemon.shinyLocked" class="btn-hunt" [style]="{'--background': getTypeColor(pokemon.types[0])}" (click)="onAddPokemonToHunt(pokemon.nameEnglish)" routerLink="/tabs" routerDirection="root">
         Begin Hunt !
       </ion-button>
     </ion-row>

@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>TODO</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button (click)="showPokemonByRegion('Kanto')">Kanto</ion-button>
+  <ion-button (click)="showPokemonByRegion('Galar')">Galar</ion-button>
+
+  <button class="pkmnList" *ngFor="let pkmn of pkmnList">
+    #{{pkmn.idNational}}
+    {{pkmn.nameEnglish}}
+  </button>
+</ion-content>

@@ -1,0 +1,94 @@
+[
+  {
+    "id": null,
+    "idNational": "172",
+    "idRegional": null,
+
+    "nameEnglish": "Pichu",
+    "nameFrench": "Pichu",
+    "nameJapanese": "ピチュー",
+
+    "regularForm": "../assets/artworkGen2/172Pichu.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Pichu.gif",
+    "shinyAnimation": "../assets/animationGen2/Pichu_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Pichu.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Pichu_Shiny.gif",
+
+    "types": [
+      "Electric"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Pichu",
+      "Pikachu",
+      "Raichu"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": "222",
+    "idRegional": null,
+
+    "nameEnglish": "Corsola",
+    "nameFrench": "Corayon",
+    "nameJapanese": "サニーゴ",
+
+    "regularForm": "../assets/artworkGen2/222Corsola.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Corsola.gif",
+    "shinyAnimation": "../assets/animationGen2/Corsola_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Corsola.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Corsola_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "region": "Johto",
+    "evolutionTree": [],
+    "forms": [
+      "Corsola",
+      "Galarian Corsola"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": "222",
+    "idRegional": null,
+
+    "nameEnglish": "Galarian Corsola",
+    "nameFrench": "Corayon de Galar",
+    "nameJapanese": "ガラルのサニーゴ",
+
+    "regularForm": "../assets/artworkGen2/222Corsola-Galar.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Corsola_Galar.gif",
+    "shinyAnimation": "../assets/animationGen2/Corsola_Galar_Shiny.gif",
+    "regularAnimationBack": null,
+    "shinyAnimationBack": null,
+
+    "types": [
+      "Ghost"
+    ],
+    "region": "Galar",
+    "evolutionTree": [
+      "Galarian Corsola",
+      "Cursola"
+    ],
+    "forms": [
+      "Corsola",
+      "Galarian Corsola"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  }
+]

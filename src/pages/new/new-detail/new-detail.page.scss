@@ -49,7 +49,6 @@ ion-item {
 
 .pkmnName {
   color: white;
-  opacity: 0.7;
   font-size: xxx-large;
   font-weight: bold;
   font-family: Bahnschrift;
@@ -65,7 +64,7 @@ ion-item {
   background-repeat: no-repeat;
 }
 
-.evolutionRow, .formRow, .shinyRow {
+.evolutionRow, .formRow {
   background: rgba(255, 255, 255, 0.35);
   border-radius: 10px;
   box-shadow: 1px 1px 10px grey;
@@ -77,14 +76,14 @@ ion-item {
   justify-content: space-around;
 }
 
-.shinyRow {
+.shinyBlock {
+  background: rgba(255, 255, 255, 0.35);
   border-radius: 50px;
 
   margin: 0px 100px 70px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 
 .evolutionTitle, .formTitle, .shinyTitle {
   text-align: center;
@@ -110,11 +109,14 @@ ion-item {
   height: 100px;
 }
 
-
-
-.evolutionCol, .formCol, .shinyCol {
+.evolutionCol, .formCol {
   text-align: center;
   max-width: 33%;
+  max-height: 80%;
+}
+
+.shinyCol {
+  text-align: center;
   max-height: 80%;
 }
 
@@ -132,10 +134,10 @@ ion-item {
   word-break: break-word;
 }
 
-
 .btn-hunt {
   color: black;
   width: 30%;
   margin: auto;
   margin-bottom: 50px;
 }
+

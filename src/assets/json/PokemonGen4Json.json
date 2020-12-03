@@ -1,0 +1,34 @@
+[
+  {
+    "id": null,
+    "idNational": "439",
+    "idRegional": null,
+
+    "nameEnglish": "Mime Jr.",
+    "nameFrench": "Mime Jr.",
+    "nameJapanese": "マネネ",
+
+    "regularForm": "../assets/artworkGen4/439Mime-Jr.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Mime-Jr.gif",
+    "shinyAnimation": "../assets/animationGen4/Mime-Jr_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Mime-Jr.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Mime-Jr_Shiny.gif",
+
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Mime Jr.",
+      "Mr. Mime",
+      "Galarian Mr. Mime",
+      "Mr. Rime"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  }
+]

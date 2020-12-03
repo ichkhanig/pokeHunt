@@ -1,0 +1,134 @@
+[
+  {
+    "id": null,
+    "idNational": "263",
+    "idRegional": null,
+
+    "nameEnglish": "Zigzagoon",
+    "nameFrench": "Zigzaton",
+    "nameJapanese": "タチフサグマ",
+
+    "regularForm": "../assets/artworkGen3/263Zigzagoon.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen3/Zigzagoon.gif",
+    "shinyAnimation": "../assets/animationGen3/Zigzagoon_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen3/Zigzagoon.gif",
+    "shinyAnimationBack": "../assets/animationBackGen3/Zigzagoon_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Hoenn",
+    "evolutionTree": [
+      "Zigzagoon",
+      "Linoone"
+    ],
+    "forms": [
+      "Zigzagoon",
+      "Galarian Zigzagoon"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": "263",
+    "idRegional": null,
+
+    "nameEnglish": "Galarian Zigzagoon",
+    "nameFrench": "Zigzaton de Galar",
+    "nameJapanese": "ガラルのジグザグマ",
+
+    "regularForm": "../assets/artworkGen3/263Zigzagoon-Galar.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen3/Zigzagoon_Galar.gif",
+    "shinyAnimation": "../assets/animationGen3/Zigzagoon_Galar_Shiny.gif",
+    "regularAnimationBack": null,
+    "shinyAnimationBack": null,
+
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "region": "Galar",
+    "evolutionTree": [
+      "Galarian Zigzagoon",
+      "Galarian Linoone",
+      "Obstagoon"
+    ],
+    "forms": [
+      "Zigzagoon",
+      "Galarian Zigzagoon"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": "264",
+    "idRegional": null,
+
+    "nameEnglish": "Linoone",
+    "nameFrench": "Linéon",
+    "nameJapanese": "マッスグマ",
+
+    "regularForm": "../assets/artworkGen3/264Linoone.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen3/Linoone.gif",
+    "shinyAnimation": "../assets/animationGen3/Linoone_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen3/Linoone.gif",
+    "shinyAnimationBack": "../assets/animationBackGen3/Linoone_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Hoenn",
+    "evolutionTree": [
+      "Zigzagoon",
+      "Linoone"
+    ],
+    "forms": [
+      "Linoone",
+      "Galarian Linoone"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": "264",
+    "idRegional": null,
+
+    "nameEnglish": "Galarian Linoone",
+    "nameFrench": "Linéon de Galar",
+    "nameJapanese": "ガラルのマッスグマ",
+
+    "regularForm": "../assets/artworkGen3/264Linoone-Galar.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen3/Linoone_Galar.gif",
+    "shinyAnimation": "../assets/animationGen3/Linoone_Galar_Shiny.gif",
+    "regularAnimationBack": null,
+    "shinyAnimationBack": null,
+
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "region": "Galar",
+    "evolutionTree": [
+      "Galarian Zigzagoon",
+      "Galarian Linoone",
+      "Obstagoon"
+    ],
+    "forms": [
+      "Linoone",
+      "Galarian Linoone"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  }
+]
