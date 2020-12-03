@@ -1,7 +1,7 @@
 [
   {
     "id": null,
-    "idNational": "001",
+    "idNational": 1,
     "idRegional": null,
 
     "nameEnglish": "Bulbasaur",
@@ -32,7 +32,7 @@
   },
   {
     "id": null,
-    "idNational": "002",
+    "idNational": 2,
     "idRegional": null,
 
     "nameEnglish": "Ivysaur",
@@ -63,7 +63,7 @@
   },
   {
     "id": null,
-    "idNational": "003",
+    "idNational": 3,
     "idRegional": null,
 
     "nameEnglish": "Venusaur",
@@ -94,7 +94,7 @@
   },
   {
     "id": null,
-    "idNational": "010",
+    "idNational": 10,
     "idRegional": null,
 
     "nameEnglish": "Caterpie",
@@ -124,7 +124,7 @@
   },
   {
     "id": null,
-    "idNational": "011",
+    "idNational": 11,
     "idRegional": null,
 
     "nameEnglish": "Metapod",
@@ -154,7 +154,7 @@
   },
   {
     "id": null,
-    "idNational": "012",
+    "idNational": 12,
     "idRegional": null,
 
     "nameEnglish": "Butterfree",
@@ -185,7 +185,7 @@
   },
   {
     "id": null,
-    "idNational": "019",
+    "idNational": 19,
     "idRegional": null,
 
     "nameEnglish": "Rattata",
@@ -217,7 +217,7 @@
   },
   {
     "id": null,
-    "idNational": "019",
+    "idNational": 19,
     "idRegional": null,
 
     "nameEnglish": "Alolan Rattata",
@@ -250,7 +250,7 @@
   },
   {
     "id": null,
-    "idNational": "020",
+    "idNational": 20,
     "idRegional": null,
 
     "nameEnglish": "Raticate",
@@ -282,7 +282,7 @@
   },
   {
     "id": null,
-    "idNational": "019",
+    "idNational": 20,
     "idRegional": null,
 
     "nameEnglish": "Alolan Raticate",
@@ -315,7 +315,7 @@
   },
   {
     "id": null,
-    "idNational": "025",
+    "idNational": 25,
     "idRegional": null,
 
     "nameEnglish": "Pikachu",
@@ -345,7 +345,7 @@
   },
   {
     "id": null,
-    "idNational": "026",
+    "idNational": 26,
     "idRegional": null,
 
     "nameEnglish": "Raichu",
@@ -378,7 +378,7 @@
   },
   {
     "id": null,
-    "idNational": "026",
+    "idNational": 26,
     "idRegional": null,
 
     "nameEnglish": "Alolan Raichu",
@@ -412,7 +412,7 @@
   },
   {
     "id": null,
-    "idNational": "027",
+    "idNational": 27,
     "idRegional": null,
 
     "nameEnglish": "Sandshrew",
@@ -444,7 +444,7 @@
   },
   {
     "id": null,
-    "idNational": "027",
+    "idNational": 27,
     "idRegional": null,
 
     "nameEnglish": "Alolan Sandshrew",
@@ -477,7 +477,7 @@
   },
   {
     "id": null,
-    "idNational": "028",
+    "idNational": 28,
     "idRegional": null,
 
     "nameEnglish": "Sandslash",
@@ -509,7 +509,7 @@
   },
   {
     "id": null,
-    "idNational": "028",
+    "idNational": 28,
     "idRegional": null,
 
     "nameEnglish": "Alolan Sandslash",
@@ -542,7 +542,7 @@
   },
   {
     "id": null,
-    "idNational": "052",
+    "idNational": 52,
     "idRegional": null,
 
     "nameEnglish": "Meowth",
@@ -575,7 +575,7 @@
   },
   {
     "id": null,
-    "idNational": "052",
+    "idNational": 52,
     "idRegional": null,
 
     "nameEnglish": "Alolan Meowth",
@@ -607,7 +607,7 @@
   },
   {
     "id": null,
-    "idNational": "052",
+    "idNational": 52,
     "idRegional": null,
 
     "nameEnglish": "Galarian Meowth",
@@ -640,7 +640,7 @@
   },
   {
     "id": null,
-    "idNational": "053",
+    "idNational": 53,
     "idRegional": null,
 
     "nameEnglish": "Persian",
@@ -672,7 +672,7 @@
   },
   {
     "id": null,
-    "idNational": "053",
+    "idNational": 53,
     "idRegional": null,
 
     "nameEnglish": "Alolan Persian",
@@ -704,7 +704,7 @@
   },
   {
     "id": null,
-    "idNational": "058",
+    "idNational": 58,
     "idRegional": null,
 
     "nameEnglish": "Growlithe",
@@ -733,7 +733,7 @@
   },
   {
     "id": null,
-    "idNational": "059",
+    "idNational": 59,
     "idRegional": null,
 
     "nameEnglish": "Arcanine",
@@ -762,7 +762,7 @@
   },
   {
     "id": null,
-    "idNational": "077",
+    "idNational": 77,
     "idRegional": null,
 
     "nameEnglish": "Ponyta",
@@ -794,7 +794,7 @@
   },
   {
     "id": null,
-    "idNational": "077",
+    "idNational": 77,
     "idRegional": null,
 
     "nameEnglish": "Galarian Ponyta",
@@ -826,7 +826,7 @@
   },
   {
     "id": null,
-    "idNational": "078",
+    "idNational": 78,
     "idRegional": null,
 
     "nameEnglish": "Rapidash",
@@ -858,7 +858,7 @@
   },
   {
     "id": null,
-    "idNational": "078",
+    "idNational": 78,
     "idRegional": null,
 
     "nameEnglish": "Galarian Rapidash",
@@ -890,7 +890,7 @@
   },
   {
     "id": null,
-    "idNational": "083",
+    "idNational": 83,
     "idRegional": null,
 
     "nameEnglish": "Farfetch'd",
@@ -920,7 +920,7 @@
   },
   {
     "id": null,
-    "idNational": "083",
+    "idNational": 83,
     "idRegional": null,
 
     "nameEnglish": "Galarian Farfetch'd",
@@ -952,7 +952,7 @@
   },
   {
     "id": null,
-    "idNational": "122",
+    "idNational": 122,
     "idRegional": null,
 
     "nameEnglish": "Mr. Mime",
@@ -985,7 +985,7 @@
   },
   {
     "id": null,
-    "idNational": "122",
+    "idNational": 122,
     "idRegional": null,
 
     "nameEnglish": "Galarian Mr. Mime",

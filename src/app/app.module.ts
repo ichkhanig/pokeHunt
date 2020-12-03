@@ -8,6 +8,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { NativePageTransitions } from '@ionic-native/native-page-transitions/ngx';
 
 import { homeToMenu } from '../animations/navAnimation';
 import { PokemonService } from '../services/pokemon.service';
@@ -24,6 +25,7 @@ import { PokemonService } from '../services/pokemon.service';
     StatusBar,
     SplashScreen,
     PokemonService,
+    NativePageTransitions,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]

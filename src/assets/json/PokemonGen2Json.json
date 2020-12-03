@@ -1,7 +1,7 @@
 [
   {
     "id": null,
-    "idNational": "172",
+    "idNational": 172,
     "idRegional": null,
 
     "nameEnglish": "Pichu",
@@ -31,7 +31,7 @@
   },
   {
     "id": null,
-    "idNational": "222",
+    "idNational": 222,
     "idRegional": null,
 
     "nameEnglish": "Corsola",
@@ -61,7 +61,7 @@
   },
   {
     "id": null,
-    "idNational": "222",
+    "idNational": 222,
     "idRegional": null,
 
     "nameEnglish": "Galarian Corsola",

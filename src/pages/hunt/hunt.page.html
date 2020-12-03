@@ -1,4 +1,4 @@
-<ion-content fullscreen>
+<ion-content fullscreen appSwipe (swipeLeft)="onSwipeLeft($event)">
   <ion-button *ngFor="let pkmn of pkmnList"
               class="btn-hunt"
               [style]="{'--background': getTypeColor(pkmn.types[0])}"

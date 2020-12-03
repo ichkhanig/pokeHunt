@@ -3,12 +3,17 @@
     <ion-buttons slot="start">
       <ion-back-button color="light" defaultHref="new"></ion-back-button>
     </ion-buttons>
-    <ion-title class="header-num" slot="end">#{{pokemon.idNational}}</ion-title>
+    <ion-title class="header-num" slot="end" *ngIf="pokemon.idNational < 10">#00{{pokemon.idNational}}</ion-title>
+    <ion-title class="header-num" slot="end" *ngIf="pokemon.idNational >= 10 && pokemon.idNational < 100">#0{{pokemon.idNational}}</ion-title>
+    <ion-title class="header-num" slot="end" *ngIf="pokemon.idNational >= 100">#{{pokemon.idNational}}</ion-title>
+
   </ion-toolbar>
 </ion-header>
 
-<ion-content fullscreen [style]="pokemon.types[1] !== undefined ? {'--background': 'linear-gradient(' + getTypeColor(pokemon.types[0]) + ',' + getTypeColor(pokemon.types[1]) + ')'}
-                                           :  {'--background': 'linear-gradient(' + getTypeColor(pokemon.types[0]) + ',' + getTypeColor(pokemon.types[0]) + '99 )'}">
+<ion-content fullscreen
+             appSwipe (swipeLeft)="onSwipeLeft($event)" (swipeRight)="onSwipeRight($event)"
+             [style]="pokemon.types[1] !== undefined ? {'--background': 'linear-gradient(' + getTypeColor(pokemon.types[0]) + ',' + getTypeColor(pokemon.types[1]) + ')'}
+                       :  {'--background': 'linear-gradient(' + getTypeColor(pokemon.types[0]) + ',' + getTypeColor(pokemon.types[0]) + '99 )'}">
 
   <ion-grid>
     <ion-row class="firstRow">
@@ -34,7 +39,11 @@
       <ion-col class="evolutionCol" *ngFor="let pkmn of evolutionList">
         <button class="btn-new" [style]="{'background': getTypeColor(pkmn.types[0])}" routerLink="/new/{{pkmn.nameEnglish}}" routerDirection="root">
           <img class="evolutionImg" [src]="pkmn.regularForm">
-          <ion-title class="imgTitle">#{{pkmn.idNational}}</ion-title>
+
+          <ion-title class="imgTitle" *ngIf="pkmn.idNational < 10">#00{{pkmn.idNational}}</ion-title>
+          <ion-title class="imgTitle" *ngIf="pkmn.idNational >= 10 && pkmn.idNational < 100">#0{{pkmn.idNational}}</ion-title>
+          <ion-title class="imgTitle" *ngIf="pkmn.idNational >= 100">#{{pkmn.idNational}}</ion-title>
+
           <ion-title class="imgTitle">{{pkmn.nameEnglish}}</ion-title>
         </button>
       </ion-col>
@@ -46,7 +55,11 @@
       <ion-col class="formCol" *ngFor="let pkmn of formList">
         <button class="btn-new" [style]="{'background': getTypeColor(pkmn.types[0])}" routerLink="/new/{{pkmn.nameEnglish}}" routerDirection="root">
           <img class="formImg" [src]="pkmn.regularForm">
-          <ion-title class="imgTitle">#{{pkmn.idNational}}</ion-title>
+
+          <ion-title class="imgTitle" *ngIf="pkmn.idNational < 10">#00{{pkmn.idNational}}</ion-title>
+          <ion-title class="imgTitle" *ngIf="pkmn.idNational >= 10 && pkmn.idNational < 100">#0{{pkmn.idNational}}</ion-title>
+          <ion-title class="imgTitle" *ngIf="pkmn.idNational >= 100">#{{pkmn.idNational}}</ion-title>
+
           <ion-title class="imgTitle">{{pkmn.nameEnglish}}</ion-title>
         </button>
       </ion-col>
@@ -78,7 +91,7 @@
 
     <ion-row>
       <ion-button [disabled]="pokemon.shinyLocked" class="btn-hunt" [style]="{'--background': getTypeColor(pokemon.types[0])}" (click)="onAddPokemonToHunt(pokemon.nameEnglish)" routerLink="/tabs" routerDirection="root">
-        Begin Hunt !
+        Hunt !
       </ion-button>
     </ion-row>
   </ion-grid>

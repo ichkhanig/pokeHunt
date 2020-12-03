@@ -1,7 +1,7 @@
 export class Pokemon {
 
   id: number;
-  idNational: string;
+  idNational: number;
   idRegional: number;
 
   nameEnglish: string;

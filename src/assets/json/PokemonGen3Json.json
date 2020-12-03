@@ -1,7 +1,7 @@
 [
   {
     "id": null,
-    "idNational": "263",
+    "idNational": 263,
     "idRegional": null,
 
     "nameEnglish": "Zigzagoon",
@@ -33,7 +33,7 @@
   },
   {
     "id": null,
-    "idNational": "263",
+    "idNational": 263,
     "idRegional": null,
 
     "nameEnglish": "Galarian Zigzagoon",
@@ -67,7 +67,7 @@
   },
   {
     "id": null,
-    "idNational": "264",
+    "idNational": 264,
     "idRegional": null,
 
     "nameEnglish": "Linoone",
@@ -99,7 +99,7 @@
   },
   {
     "id": null,
-    "idNational": "264",
+    "idNational": 264,
     "idRegional": null,
 
     "nameEnglish": "Galarian Linoone",

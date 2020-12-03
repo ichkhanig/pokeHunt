@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { DexPageRoutingModule } from './dex-routing.module';
+import { SwipeModule } from 'src/app/swipe/swipe.module';
 
 import { DexPage } from './dex.page';
 
@@ -13,7 +14,8 @@ import { DexPage } from './dex.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    DexPageRoutingModule
+    DexPageRoutingModule,
+    SwipeModule
   ],
   declarations: [DexPage]
 })

@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { NewDetailPageRoutingModule } from './new-detail-routing.module';
+import { SwipeModule } from 'src/app/swipe/swipe.module';
 
 import { NewDetailPage } from './new-detail.page';
 
@@ -13,7 +14,8 @@ import { NewDetailPage } from './new-detail.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    NewDetailPageRoutingModule
+    NewDetailPageRoutingModule,
+    SwipeModule
   ],
   declarations: [NewDetailPage]
 })

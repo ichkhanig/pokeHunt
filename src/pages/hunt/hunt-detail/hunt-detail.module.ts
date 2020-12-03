@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { HuntDetailPageRoutingModule } from './hunt-detail-routing.module';
+import { SwipeModule } from 'src/app/swipe/swipe.module';
 
 import { HuntDetailPage } from './hunt-detail.page';
 
@@ -13,7 +14,8 @@ import { HuntDetailPage } from './hunt-detail.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    HuntDetailPageRoutingModule
+    HuntDetailPageRoutingModule,
+    SwipeModule
   ],
   declarations: [HuntDetailPage]
 })

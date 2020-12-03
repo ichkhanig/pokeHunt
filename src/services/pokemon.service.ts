@@ -86,6 +86,10 @@ export class PokemonService {
     return this.huntList.find(({id}) => id == idPkmn);
   }
 
+  getPokemonByIdNational(idPkmn: number) {
+    return this.pkmnList.find(({idNational}) => idNational == idPkmn);
+  }
+
   getPokemonByName(namePokemon: string) {
     return this.pkmnList.find(({nameEnglish}) => nameEnglish == namePokemon);
   }

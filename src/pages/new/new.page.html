@@ -7,12 +7,15 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content fullscreen>
+<ion-content fullscreen appSwipe (swipeLeft)="onSwipeLeft($event)">
+
   <ion-button *ngFor="let pkmn of pkmnList"
               [style]="{'--background': getTypeColor(pkmn.types[0])}"
               (click)="onGoToName(pkmn.nameEnglish)">
 
-    <div class="pkmnNumber">#{{pkmn.idNational}}</div>
+    <div class="pkmnNumber" *ngIf="pkmn.idNational < 10">#00{{pkmn.idNational}}</div>
+    <div class="pkmnNumber" *ngIf="pkmn.idNational >= 10 && pkmn.idNational < 100">#0{{pkmn.idNational}}</div>
+    <div class="pkmnNumber" *ngIf="pkmn.idNational >= 100">#{{pkmn.idNational}}</div>
     <div class="pkmnName">{{pkmn.nameEnglish}}</div>
 
     <img class="typeIcon" [src]="getTypeIcon(pkmn.types[0])">

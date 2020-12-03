@@ -1,7 +1,7 @@
 [
   {
     "id": null,
-    "idNational": "562",
+    "idNational": 562,
     "idRegional": null,
 
     "nameEnglish": "Yamask",
@@ -33,7 +33,7 @@
   },
   {
     "id": null,
-    "idNational": "562",
+    "idNational": 562,
     "idRegional": null,
 
     "nameEnglish": "Galarian Yamask",
@@ -66,7 +66,7 @@
   },
   {
     "id": null,
-    "idNational": "563",
+    "idNational": 563,
     "idRegional": null,
 
     "nameEnglish": "Cofagrigus",

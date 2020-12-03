@@ -1,7 +1,7 @@
 [
   {
     "id": null,
-    "idNational": "810",
+    "idNational": 810,
     "idRegional": null,
 
     "nameEnglish": "Grookey",
@@ -31,7 +31,7 @@
   },
   {
     "id": null,
-    "idNational": "811",
+    "idNational": 811,
     "idRegional": null,
 
     "nameEnglish": "Thwackey",
@@ -61,7 +61,7 @@
   },
   {
     "id": null,
-    "idNational": "812",
+    "idNational": 812,
     "idRegional": null,
 
     "nameEnglish": "Rillaboom",
@@ -91,7 +91,7 @@
   },
   {
     "id": null,
-    "idNational": "813",
+    "idNational": 813,
     "idRegional": null,
 
     "nameEnglish": "Scorbunny",
@@ -121,7 +121,7 @@
   },
   {
     "id": null,
-    "idNational": "814",
+    "idNational": 814,
     "idRegional": null,
 
     "nameEnglish": "Raboot",
@@ -151,7 +151,7 @@
   },
   {
     "id": null,
-    "idNational": "815",
+    "idNational": 815,
     "idRegional": null,
 
     "nameEnglish": "Cinderace",
@@ -181,7 +181,7 @@
   },
   {
     "id": null,
-    "idNational": "816",
+    "idNational": 816,
     "idRegional": null,
 
     "nameEnglish": "Sobble",
@@ -211,7 +211,7 @@
   },
   {
     "id": null,
-    "idNational": "817",
+    "idNational": 817,
     "idRegional": null,
 
     "nameEnglish": "Drizzile",
@@ -241,7 +241,7 @@
   },
   {
     "id": null,
-    "idNational": "818",
+    "idNational": 818,
     "idRegional": null,
 
     "nameEnglish": "Inteleon",
@@ -271,7 +271,7 @@
   },
   {
     "id": null,
-    "idNational": "819",
+    "idNational": 819,
     "idRegional": null,
 
     "nameEnglish": "Skwovet",
@@ -300,7 +300,7 @@
   },
   {
     "id": null,
-    "idNational": "820",
+    "idNational": 820,
     "idRegional": null,
 
     "nameEnglish": "Greedent",
@@ -329,7 +329,7 @@
   },
   {
     "id": null,
-    "idNational": "821",
+    "idNational": 821,
     "idRegional": null,
 
     "nameEnglish": "Rookidee",
@@ -359,7 +359,7 @@
   },
   {
     "id": null,
-    "idNational": "822",
+    "idNational": 822,
     "idRegional": null,
 
     "nameEnglish": "Corvisquire",
@@ -389,7 +389,7 @@
   },
   {
     "id": null,
-    "idNational": "823",
+    "idNational": 823,
     "idRegional": null,
 
     "nameEnglish": "Corviknight",
@@ -420,7 +420,7 @@
   },
   {
     "id": null,
-    "idNational": "824",
+    "idNational": 824,
     "idRegional": null,
 
     "nameEnglish": "Blipbug",
@@ -450,7 +450,7 @@
   },
   {
     "id": null,
-    "idNational": "825",
+    "idNational": 825,
     "idRegional": null,
 
     "nameEnglish": "Dottler",
@@ -481,7 +481,7 @@
   },
   {
     "id": null,
-    "idNational": "826",
+    "idNational": 826,
     "idRegional": null,
 
     "nameEnglish": "Orbeetle",
@@ -512,7 +512,7 @@
   },
   {
     "id": null,
-    "idNational": "827",
+    "idNational": 827,
     "idRegional": null,
 
     "nameEnglish": "Nickit",
@@ -541,7 +541,7 @@
   },
   {
     "id": null,
-    "idNational": "828",
+    "idNational": 828,
     "idRegional": null,
 
     "nameEnglish": "Thievul",
@@ -570,7 +570,7 @@
   },
   {
     "id": null,
-    "idNational": "829",
+    "idNational": 829,
     "idRegional": null,
 
     "nameEnglish": "Gossifleur",
@@ -599,7 +599,7 @@
   },
   {
     "id": null,
-    "idNational": "830",
+    "idNational": 830,
     "idRegional": null,
 
     "nameEnglish": "Eldegoss",
@@ -628,7 +628,7 @@
   },
   {
     "id": null,
-    "idNational": "831",
+    "idNational": 831,
     "idRegional": null,
 
     "nameEnglish": "Wooloo",
@@ -657,7 +657,7 @@
   },
   {
     "id": null,
-    "idNational": "832",
+    "idNational": 832,
     "idRegional": null,
 
     "nameEnglish": "Dubwool",
@@ -686,7 +686,7 @@
   },
   {
     "id": null,
-    "idNational": "833",
+    "idNational": 833,
     "idRegional": null,
 
     "nameEnglish": "Chewtle",
@@ -715,7 +715,7 @@
   },
   {
     "id": null,
-    "idNational": "834",
+    "idNational": 834,
     "idRegional": null,
 
     "nameEnglish": "Drednaw",
@@ -745,7 +745,7 @@
   },
   {
     "id": null,
-    "idNational": "835",
+    "idNational": 835,
     "idRegional": null,
 
     "nameEnglish": "Yamper",
@@ -774,7 +774,7 @@
   },
   {
     "id": null,
-    "idNational": "836",
+    "idNational": 836,
     "idRegional": null,
 
     "nameEnglish": "Boltund",
@@ -803,7 +803,7 @@
   },
   {
     "id": null,
-    "idNational": "837",
+    "idNational": 837,
     "idRegional": null,
 
     "nameEnglish": "Rolycoly",
@@ -833,7 +833,7 @@
   },
   {
     "id": null,
-    "idNational": "838",
+    "idNational": 838,
     "idRegional": null,
 
     "nameEnglish": "Carkol",
@@ -864,7 +864,7 @@
   },
   {
     "id": null,
-    "idNational": "839",
+    "idNational": 839,
     "idRegional": null,
 
     "nameEnglish": "Coalossal",
@@ -895,7 +895,7 @@
   },
   {
     "id": null,
-    "idNational": "840",
+    "idNational": 840,
     "idRegional": null,
 
     "nameEnglish": "Applin",
@@ -926,7 +926,7 @@
   },
   {
     "id": null,
-    "idNational": "841",
+    "idNational": 841,
     "idRegional": null,
 
     "nameEnglish": "Flapple",
@@ -957,7 +957,7 @@
   },
   {
     "id": null,
-    "idNational": "842",
+    "idNational": 842,
     "idRegional": null,
 
     "nameEnglish": "Appletun",
@@ -988,7 +988,7 @@
   },
   {
     "id": null,
-    "idNational": "843",
+    "idNational": 843,
     "idRegional": null,
 
     "nameEnglish": "Silicobra",
@@ -1017,7 +1017,7 @@
   },
   {
     "id": null,
-    "idNational": "844",
+    "idNational": 844,
     "idRegional": null,
 
     "nameEnglish": "Sandaconda",
@@ -1046,7 +1046,7 @@
   },
   {
     "id": null,
-    "idNational": "845",
+    "idNational": 845,
     "idRegional": null,
 
     "nameEnglish": "Cramorant",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": null,
-    "idNational": "846",
+    "idNational": 846,
     "idRegional": null,
 
     "nameEnglish": "Arrokuda",
@@ -1102,7 +1102,7 @@
   },
   {
     "id": null,
-    "idNational": "847",
+    "idNational": 847,
     "idRegional": null,
 
     "nameEnglish": "Barraskewda",
@@ -1131,7 +1131,7 @@
   },
   {
     "id": null,
-    "idNational": "848",
+    "idNational": 848,
     "idRegional": null,
 
     "nameEnglish": "Toxel",
@@ -1161,7 +1161,7 @@
   },
   {
     "id": null,
-    "idNational": "849",
+    "idNational": 849,
     "idRegional": null,
 
     "nameEnglish": "Toxtricity",
@@ -1191,7 +1191,7 @@
   },
   {
     "id": null,
-    "idNational": "850",
+    "idNational": 850,
     "idRegional": null,
 
     "nameEnglish": "Sizzlipede",
@@ -1221,7 +1221,7 @@
   },
   {
     "id": null,
-    "idNational": "851",
+    "idNational": 851,
     "idRegional": null,
 
     "nameEnglish": "Centiskorch",
@@ -1251,7 +1251,7 @@
   },
   {
     "id": null,
-    "idNational": "852",
+    "idNational": 852,
     "idRegional": null,
 
     "nameEnglish": "Clobbopus",
@@ -1280,7 +1280,7 @@
   },
   {
     "id": null,
-    "idNational": "853",
+    "idNational": 853,
     "idRegional": null,
 
     "nameEnglish": "Grapploct",
@@ -1309,7 +1309,7 @@
   },
   {
     "id": null,
-    "idNational": "854",
+    "idNational": 854,
     "idRegional": null,
 
     "nameEnglish": "Sinistea",
@@ -1338,7 +1338,7 @@
   },
   {
     "id": null,
-    "idNational": "855",
+    "idNational": 855,
     "idRegional": null,
 
     "nameEnglish": "Polteageist",
@@ -1367,7 +1367,7 @@
   },
   {
     "id": null,
-    "idNational": "856",
+    "idNational": 856,
     "idRegional": null,
 
     "nameEnglish": "Hatenna",
@@ -1397,7 +1397,7 @@
   },
   {
     "id": null,
-    "idNational": "857",
+    "idNational": 857,
     "idRegional": null,
 
     "nameEnglish": "Hattrem",
@@ -1427,7 +1427,7 @@
   },
   {
     "id": null,
-    "idNational": "858",
+    "idNational": 858,
     "idRegional": null,
 
     "nameEnglish": "Hatterene",
@@ -1458,7 +1458,7 @@
   },
   {
     "id": null,
-    "idNational": "859",
+    "idNational": 859,
     "idRegional": null,
 
     "nameEnglish": "Impidimp",
@@ -1489,7 +1489,7 @@
   },
   {
     "id": null,
-    "idNational": "860",
+    "idNational": 860,
     "idRegional": null,
 
     "nameEnglish": "Morgrem",
@@ -1520,7 +1520,7 @@
   },
   {
     "id": null,
-    "idNational": "861",
+    "idNational": 861,
     "idRegional": null,
 
     "nameEnglish": "Grimmsnarl",
@@ -1551,7 +1551,7 @@
   },
   {
     "id": null,
-    "idNational": "862",
+    "idNational": 862,
     "idRegional": null,
 
     "nameEnglish": "Obstagoon",
@@ -1582,7 +1582,7 @@
   },
   {
     "id": null,
-    "idNational": "863",
+    "idNational": 863,
     "idRegional": null,
 
     "nameEnglish": "Perrserker",
@@ -1611,7 +1611,7 @@
   },
   {
     "id": null,
-    "idNational": "864",
+    "idNational": 864,
     "idRegional": null,
 
     "nameEnglish": "Cursola",
@@ -1640,7 +1640,7 @@
   },
   {
     "id": null,
-    "idNational": "865",
+    "idNational": 865,
     "idRegional": null,
 
     "nameEnglish": "Sirfetch'd",
@@ -1669,7 +1669,7 @@
   },
   {
     "id": null,
-    "idNational": "866",
+    "idNational": 866,
     "idRegional": null,
 
     "nameEnglish": "Mr. Rime",
@@ -1700,7 +1700,7 @@
   },
   {
     "id": null,
-    "idNational": "867",
+    "idNational": 867,
     "idRegional": null,
 
     "nameEnglish": "Runerigus",
@@ -1730,7 +1730,7 @@
   },
   {
     "id": null,
-    "idNational": "868",
+    "idNational": 868,
     "idRegional": null,
 
     "nameEnglish": "Milcery",
@@ -1759,7 +1759,7 @@
   },
   {
     "id": null,
-    "idNational": "869",
+    "idNational": 869,
     "idRegional": null,
 
     "nameEnglish": "Alcremie",
@@ -1788,7 +1788,7 @@
   },
   {
     "id": null,
-    "idNational": "870",
+    "idNational": 870,
     "idRegional": null,
 
     "nameEnglish": "Falinks",
@@ -1814,7 +1814,7 @@
   },
   {
     "id": null,
-    "idNational": "871",
+    "idNational": 871,
     "idRegional": null,
 
     "nameEnglish": "Pincurchin",
@@ -1840,7 +1840,7 @@
   },
   {
     "id": null,
-    "idNational": "872",
+    "idNational": 872,
     "idRegional": null,
 
     "nameEnglish": "Snom",
@@ -1870,7 +1870,7 @@
   },
   {
     "id": null,
-    "idNational": "873",
+    "idNational": 873,
     "idRegional": null,
 
     "nameEnglish": "Frosmoth",
@@ -1900,7 +1900,7 @@
   },
   {
     "id": null,
-    "idNational": "874",
+    "idNational": 874,
     "idRegional": null,
 
     "nameEnglish": "Stonjourner",
@@ -1926,7 +1926,7 @@
   },
   {
     "id": null,
-    "idNational": "875",
+    "idNational": 875,
     "idRegional": null,
 
     "nameEnglish": "Eiscue",
@@ -1952,7 +1952,7 @@
   },
   {
     "id": null,
-    "idNational": "876",
+    "idNational": 876,
     "idRegional": null,
 
     "nameEnglish": "Indeedee",
@@ -1979,7 +1979,7 @@
   },
   {
     "id": null,
-    "idNational": "877",
+    "idNational": 877,
     "idRegional": null,
 
     "nameEnglish": "Morpeko",
@@ -2006,7 +2006,7 @@
   },
   {
     "id": null,
-    "idNational": "878",
+    "idNational": 878,
     "idRegional": null,
 
     "nameEnglish": "Cufant",
@@ -2035,7 +2035,7 @@
   },
   {
     "id": null,
-    "idNational": "879",
+    "idNational": 879,
     "idRegional": null,
 
     "nameEnglish": "Copperajah",
@@ -2064,7 +2064,7 @@
   },
   {
     "id": null,
-    "idNational": "880",
+    "idNational": 880,
     "idRegional": null,
 
     "nameEnglish": "Dracozolt",
@@ -2091,7 +2091,7 @@
   },
   {
     "id": null,
-    "idNational": "881",
+    "idNational": 881,
     "idRegional": null,
 
     "nameEnglish": "Arctozolt",
@@ -2118,7 +2118,7 @@
   },
   {
     "id": null,
-    "idNational": "882",
+    "idNational": 882,
     "idRegional": null,
 
     "nameEnglish": "Dracovish",
@@ -2145,7 +2145,7 @@
   },
   {
     "id": null,
-    "idNational": "883",
+    "idNational": 883,
     "idRegional": null,
 
     "nameEnglish": "Arctovish",
@@ -2172,7 +2172,7 @@
   },
   {
     "id": null,
-    "idNational": "884",
+    "idNational": 884,
     "idRegional": null,
 
     "nameEnglish": "Duraludon",
@@ -2199,7 +2199,7 @@
   },
   {
     "id": null,
-    "idNational": "885",
+    "idNational": 885,
     "idRegional": null,
 
     "nameEnglish": "Dreepy",
@@ -2230,7 +2230,7 @@
   },
   {
     "id": null,
-    "idNational": "886",
+    "idNational": 886,
     "idRegional": null,
 
     "nameEnglish": "Drakloak",
@@ -2261,7 +2261,7 @@
   },
   {
     "id": null,
-    "idNational": "887",
+    "idNational": 887,
     "idRegional": null,
 
     "nameEnglish": "Dragapult",
@@ -2292,7 +2292,7 @@
   },
   {
     "id": null,
-    "idNational": "888",
+    "idNational": 888,
     "idRegional": null,
 
     "nameEnglish": "Zacian",
@@ -2319,7 +2319,7 @@
   },
   {
     "id": null,
-    "idNational": "889",
+    "idNational": 889,
     "idRegional": null,
 
     "nameEnglish": "Zamazenta",
@@ -2346,7 +2346,7 @@
   },
   {
     "id": null,
-    "idNational": "890",
+    "idNational": 890,
     "idRegional": null,
 
     "nameEnglish": "Eternatus",
@@ -2373,7 +2373,7 @@
   },
   {
     "id": null,
-    "idNational": "891",
+    "idNational": 891,
     "idRegional": null,
 
     "nameEnglish": "Kubfu",
@@ -2402,7 +2402,7 @@
   },
   {
     "id": null,
-    "idNational": "892",
+    "idNational": 892,
     "idRegional": null,
 
     "nameEnglish": "Urshifu",
@@ -2432,7 +2432,7 @@
   },
   {
     "id": null,
-    "idNational": "893",
+    "idNational": 893,
     "idRegional": null,
 
     "nameEnglish": "Zarude",
@@ -2459,7 +2459,7 @@
   },
   {
     "id": null,
-    "idNational": "894",
+    "idNational": 894,
     "idRegional": null,
 
     "nameEnglish": "Regieleki",
@@ -2485,7 +2485,7 @@
   },
   {
     "id": null,
-    "idNational": "895",
+    "idNational": 895,
     "idRegional": null,
 
     "nameEnglish": "Regidrago",
@@ -2511,7 +2511,7 @@
   },
   {
     "id": null,
-    "idNational": "896",
+    "idNational": 896,
     "idRegional": null,
 
     "nameEnglish": "Glastrier",
@@ -2537,7 +2537,7 @@
   },
   {
     "id": null,
-    "idNational": "897",
+    "idNational": 897,
     "idRegional": null,
 
     "nameEnglish": "Spectrier",
@@ -2563,7 +2563,7 @@
   },
   {
     "id": null,
-    "idNational": "898",
+    "idNational": 898,
     "idRegional": null,
 
     "nameEnglish": "Calyrex",
