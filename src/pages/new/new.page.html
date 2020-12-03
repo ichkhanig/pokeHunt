@@ -25,4 +25,11 @@
     <ion-img class="pkmnRegularForm" slot="end" [src]="pkmn.regularForm"></ion-img>
 
   </ion-button>
+
+  <ion-infinite-scroll (ionInfinite)="loadMorePokemon($event)" [disabled]="count >= tmpList.length">
+    <ion-infinite-scroll-content loadingText="Capturing more Pokemons">
+
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
 </ion-content>

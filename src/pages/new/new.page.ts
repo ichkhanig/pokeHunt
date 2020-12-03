@@ -11,7 +11,10 @@ import { NativePageTransitions, NativeTransitionOptions } from '@ionic-native/na
 })
 export class NewPage implements OnInit {
 
-  private pkmnList;
+  private pkmnList = [];
+  private tmpList;
+  count: number = 0;
+  pace = 100;
 
   constructor(private pokemonService: PokemonService,
               private router: Router,
@@ -19,11 +22,40 @@ export class NewPage implements OnInit {
               private nativePageTransitions: NativePageTransitions) {}
 
   ngOnInit() {
-    this.pkmnList = this.pokemonService.getAllPokemon();
+    this.tmpList = this.pokemonService.getAllPokemon();
+    this.refresh(this.count);
   }
 
   findPokemon(search: any) {
-    return this.pkmnList = this.pokemonService.findPokemon(String(search.target.value));
+    return this.tmpList = this.pokemonService.findPokemon(String(search.target.value));
+  }
+
+  getTypeColor(type: string) {
+    return this.pokemonService.produceTypeColor(type);
+  }
+
+  getTypeIcon(type: string) {
+    return this.pokemonService.produceTypeIcon(type);
+  }
+
+  loadMorePokemon(event) {
+    setTimeout(() => {
+      this.refresh(this.count);
+      event.target.complete();
+    }, 150);
+  }
+
+  refresh(count: number) {
+    if (count + this.pace < this.tmpList.length) {
+      for (let i=count; i<count+this.pace; i++) {
+        this.pkmnList.push(this.tmpList[i]);
+      }
+    } else {
+      for (let i=count; i<this.tmpList.length; i++) {
+        this.pkmnList.push(this.tmpList[i]);
+      }
+    }
+    this.count += this.pace;
   }
 
   onGoToName(name: string) {
@@ -38,13 +70,4 @@ export class NewPage implements OnInit {
     this.nativePageTransitions.slide(options);
     this.navController.navigateBack(['/menu']);
   }
-
-  getTypeColor(type: string) {
-    return this.pokemonService.produceTypeColor(type);
-  }
-
-  getTypeIcon(type: string) {
-    return this.pokemonService.produceTypeIcon(type);
-  }
-
 }
