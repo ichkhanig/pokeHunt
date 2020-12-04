@@ -1,0 +1,31 @@
+[
+  {
+    "id": null,
+    "idNational": 700,
+    "idRegional": null,
+
+    "nameEnglish": "Sylveon",
+    "nameFrench": "Nymphali",
+    "nameJapanese": "ニンフィア",
+
+    "regularForm": "../assets/artworkGen4/700Sylveon.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Sylveon.gif",
+    "shinyAnimation": "../assets/animationGen4/Sylveon_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Sylveon.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Sylveon_Shiny.gif",
+
+    "types": [
+      "Fairy"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Eevee",
+      "Sylveon"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  }
+]
