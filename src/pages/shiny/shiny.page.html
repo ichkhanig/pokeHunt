@@ -1,0 +1,19 @@
+<ion-content appSwipe (swipeLeft)="onSwipeLeft($event)">
+
+  <ion-button *ngFor="let pkmn of pkmnList"
+              class="btn-hunt"
+              [style]="{'--background': getTypeColor(pkmn.types[0])}"
+              (click)="onGoToDetail(pkmn.id)">
+
+    <div class="pkmnNumber" *ngIf="pkmn.idNational < 10">#00{{pkmn.idNational}}</div>
+    <div class="pkmnNumber" *ngIf="pkmn.idNational >= 10 && pkmn.idNational < 100">#0{{pkmn.idNational}}</div>
+    <div class="pkmnNumber" *ngIf="pkmn.idNational >= 100">#{{pkmn.idNational}}</div>
+    <div class="pkmnName">{{pkmn.nameEnglish}}</div>
+
+    <ion-title class="counterTitle">Counter: {{pkmn.counter}}</ion-title>
+
+    <div class="icon"></div>
+    <ion-img class="pkmnRegularForm" slot="end" [src]="pkmn.regularForm"></ion-img>
+  </ion-button>
+
+</ion-content>

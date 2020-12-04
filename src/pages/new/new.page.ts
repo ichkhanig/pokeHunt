@@ -14,7 +14,7 @@ export class NewPage implements OnInit {
   private pkmnList = [];
   private tmpList;
   count: number = 0;
-  pace = 100;
+  pace = 60;
 
   constructor(private pokemonService: PokemonService,
               private router: Router,
@@ -27,6 +27,9 @@ export class NewPage implements OnInit {
   }
 
   findPokemon(search: any) {
+    this.pkmnList = [];
+    this.count = 0;
+    this.loadMorePokemon(event);
     return this.tmpList = this.pokemonService.findPokemon(String(search.target.value));
   }
 

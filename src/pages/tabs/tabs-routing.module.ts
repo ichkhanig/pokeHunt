@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { TabsPage } from './tabs.page';
 import { HuntPage } from '../hunt/hunt.page';
+import { ShinyPage } from '../shiny/shiny.page';
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
       {
         path: 'hunt',
         component: HuntPage,
+      },
+      {
+        path: 'shiny',
+        component: ShinyPage,
       }
     ]
   },

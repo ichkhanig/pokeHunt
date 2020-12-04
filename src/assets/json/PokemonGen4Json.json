@@ -30,5 +30,303 @@
 
     "shinyLocked": false,
     "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 440,
+    "idRegional": null,
+
+    "nameEnglish": "Happiny",
+    "nameFrench": "Ptiravi",
+    "nameJapanese": "ピンプク",
+
+    "regularForm": "../assets/artworkGen4/440Happiny.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Happiny.gif",
+    "shinyAnimation": "../assets/animationGen4/Happiny_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Happiny.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Happiny_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Happiny",
+      "Chansey",
+      "Blissey"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 462,
+    "idRegional": null,
+
+    "nameEnglish": "Magnezone",
+    "nameFrench": "Magnézone",
+    "nameJapanese": "ジバコイル",
+
+    "regularForm": "../assets/artworkGen4/462Magnezone.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Magnezone.gif",
+    "shinyAnimation": "../assets/animationGen4/Magnezone_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Magnezone.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Magnezone_Shiny.gif",
+
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Magnemite",
+      "Magneton",
+      "Magnezone"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 463,
+    "idRegional": null,
+
+    "nameEnglish": "Lickilicky",
+    "nameFrench": "Coudlangue",
+    "nameJapanese": "ベロベルト",
+
+    "regularForm": "../assets/artworkGen4/463Lickilicky.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Lickilicky.gif",
+    "shinyAnimation": "../assets/animationGen4/Lickilicky_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Lickilicky.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Lickilicky_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Lickitung",
+      "Lickilicky"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 464,
+    "idRegional": null,
+
+    "nameEnglish": "Rhyperior",
+    "nameFrench": "Rhinastoc",
+    "nameJapanese": "ドサイドン",
+
+    "regularForm": "../assets/artworkGen4/464Rhyperior.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Rhyperior.gif",
+    "shinyAnimation": "../assets/animationGen4/Rhyperior_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Rhyperior.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Rhyperior_Shiny.gif",
+
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Rhyhorn",
+      "Rhydon",
+      "Rhyperior"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 465,
+    "idRegional": null,
+
+    "nameEnglish": "Tangrowth",
+    "nameFrench": "Bouldeneu",
+    "nameJapanese": "モジャンボ",
+
+    "regularForm": "../assets/artworkGen4/465Tangrowth.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Tangrowth.gif",
+    "shinyAnimation": "../assets/animationGen4/Tangrowth_Shiny.gif",
+    "regularAnimationBack": null,
+    "shinyAnimationBack": null,
+
+    "types": [
+      "Grass"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Tangela",
+      "Tangrowth"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 466,
+    "idRegional": null,
+
+    "nameEnglish": "Electivire",
+    "nameFrench": "Élekable",
+    "nameJapanese": "エレキブル",
+
+    "regularForm": "../assets/artworkGen4/466Electivire.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Electivire.gif",
+    "shinyAnimation": "../assets/animationGen4/Electivire_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Electivire.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Electivire_Shiny.gif",
+
+    "types": [
+      "Electric"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Elekid",
+      "Electabuzz",
+      "Electivire"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 467,
+    "idRegional": null,
+
+    "nameEnglish": "Magmortar",
+    "nameFrench": "Maganon",
+    "nameJapanese": "ブーバーン",
+
+    "regularForm": "../assets/artworkGen4/467Magmortar.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Magmortar.gif",
+    "shinyAnimation": "../assets/animationGen4/Magmortar_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Magmortar.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Magmortar_Shiny.gif",
+
+    "types": [
+      "Fire"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Magby",
+      "Magmar",
+      "Magmortar"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 470,
+    "idRegional": null,
+
+    "nameEnglish": "Leafeon",
+    "nameFrench": "Phyllali",
+    "nameJapanese": "リーフィア",
+
+    "regularForm": "../assets/artworkGen4/470Leafeon.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Leafeon.gif",
+    "shinyAnimation": "../assets/animationGen4/Leafeon_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Leafeon.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Leafeon_Shiny.gif",
+
+    "types": [
+      "Grass"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Eevee",
+      "Leafeon"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 471,
+    "idRegional": null,
+
+    "nameEnglish": "Glaceon",
+    "nameFrench": "Givrali",
+    "nameJapanese": "グレイシア",
+
+    "regularForm": "../assets/artworkGen4/471Glaceon.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Glaceon.gif",
+    "shinyAnimation": "../assets/animationGen4/Glaceon_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Glaceon.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Glaceon_Shiny.gif",
+
+    "types": [
+      "Ice"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Eevee",
+      "Glaceon"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 474,
+    "idRegional": null,
+
+    "nameEnglish": "Porygon-Z",
+    "nameFrench": "Porygon-Z",
+    "nameJapanese": "ポリゴンZ",
+
+    "regularForm": "../assets/artworkGen4/474Porygon-Z.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Porygon-Z.gif",
+    "shinyAnimation": "../assets/animationGen4/Porygon-Z_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Porygon-Z.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Porygon-Z_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Porygon",
+      "Porygon2",
+      "Porygon-Z"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
   }
 ]

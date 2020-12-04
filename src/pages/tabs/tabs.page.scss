@@ -1,17 +1,29 @@
-ion-toolbar, ion-header {
+ion-toolbar {
+  height: 100%;
   --background: white;
+}
+
+ion-header {
+  height: 25%;
+  --background: transparent;
 }
 
 ion-item {
   color: black;
   --background: transparent;
   width: 80%;
+  height: 90px;
   margin: 30px auto;
   margin-bottom: 30px;
 }
 
 ion-content {
   --ion-background-color: white;
+}
+
+ion-tabs {
+  position: fixed;
+  top: 24%;
 }
 
 ion-tab-bar {
@@ -36,4 +48,13 @@ ion-tab-bar {
   background: -webkit-linear-gradient(left, #E74C3C ,#F0B27A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.btn-add {
+  margin: auto;
+  margin-right: 50px;
+  width: 60px;
+  height: 60px;
+  --background: -webkit-linear-gradient(left, #E74C3C ,#F0B27A);
+  --border-radius: 50%;
 }

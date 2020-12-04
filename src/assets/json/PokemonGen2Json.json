@@ -1,6 +1,37 @@
 [
   {
     "id": null,
+    "idNational": 169,
+    "idRegional": null,
+
+    "nameEnglish": "Crobat",
+    "nameFrench": "Nostenfer",
+    "nameJapanese": "クロバット",
+
+    "regularForm": "../assets/artworkGen2/169Crobat.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Crobat.gif",
+    "shinyAnimation": "../assets/animationGen2/Crobat_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Crobat.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Crobat_Shiny.gif",
+
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Zubat",
+      "Golbat",
+      "Crobat"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
     "idNational": 172,
     "idRegional": null,
 
@@ -23,6 +54,251 @@
       "Pichu",
       "Pikachu",
       "Raichu"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 174,
+    "idRegional": null,
+
+    "nameEnglish": "Igglybuff",
+    "nameFrench": "Toudoudou",
+    "nameJapanese": "ププリン",
+
+    "regularForm": "../assets/artworkGen2/174Igglybuff.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Igglybuff.gif",
+    "shinyAnimation": "../assets/animationGen2/Igglybuff_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Igglybuff.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Igglybuff_Shiny.gif",
+
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Igglybuff",
+      "Jigglypuff",
+      "Wigglytuff"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 182,
+    "idRegional": null,
+
+    "nameEnglish": "Bellossom",
+    "nameFrench": "Joliflor",
+    "nameJapanese": "キレイハナ",
+
+    "regularForm": "../assets/artworkGen2/182Bellossom.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Bellossom.gif",
+    "shinyAnimation": "../assets/animationGen2/Bellossom_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Bellossom.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Bellossom_Shiny.gif",
+
+    "types": [
+      "Grass"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Oddish",
+      "Gloom",
+      "Bellossom"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 186,
+    "idRegional": null,
+
+    "nameEnglish": "Politoed",
+    "nameFrench": "Tarpaud",
+    "nameJapanese": "ニョロトノ",
+
+    "regularForm": "../assets/artworkGen2/186Politoed.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Politoed.gif",
+    "shinyAnimation": "../assets/animationGen2/Politoed_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Politoed.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Politoed_Shiny.gif",
+
+    "types": [
+      "Water"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Poliwag",
+      "Poliwhirl",
+      "Politoed"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 196,
+    "idRegional": null,
+
+    "nameEnglish": "Espeon",
+    "nameFrench": "Mentali",
+    "nameJapanese": "エーフィ",
+
+    "regularForm": "../assets/artworkGen2/196Espeon.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Espeon.gif",
+    "shinyAnimation": "../assets/animationGen2/Espeon_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Espeon.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Espeon_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Eevee",
+      "Espeon"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 197,
+    "idRegional": null,
+
+    "nameEnglish": "Umbreon",
+    "nameFrench": "Noctali",
+    "nameJapanese": "ブラッキー",
+
+    "regularForm": "../assets/artworkGen2/197Umbreon.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Umbreon.gif",
+    "shinyAnimation": "../assets/animationGen2/Umbreon_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Umbreon.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Umbreon_Shiny.gif",
+
+    "types": [
+      "Dark"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Eevee",
+      "Umbreon"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 199,
+    "idRegional": null,
+
+    "nameEnglish": "Slowking",
+    "nameFrench": "Roigada",
+    "nameJapanese": "ヤドキング",
+
+    "regularForm": "../assets/artworkGen2/199Slowking.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Slowking.gif",
+    "shinyAnimation": "../assets/animationGen2/Slowking_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Slowking.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Slowking_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Slowpoke",
+      "Slowking"
+    ],
+    "forms": [
+      "Slowking",
+      "Galarian Slowking"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 199,
+    "idRegional": null,
+
+    "nameEnglish": "Galarian Slowking",
+    "nameFrench": "Roigada de Galar",
+    "nameJapanese": "ガラルのヤドキング",
+
+    "regularForm": "../assets/artworkGen2/199Slowking-Galar.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Slowking_Galar.gif",
+    "shinyAnimation": "../assets/animationGen2/Slowking_Galar_Shiny.gif",
+    "regularAnimationBack": null,
+    "shinyAnimationBack": null,
+
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "region": "Galar",
+    "evolutionTree": [
+      "Galarian Slowpoke",
+      "Galarian Slowking"
+    ],
+    "forms": [
+      "Slowking",
+      "Galarian Slowking"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 212,
+    "idRegional": null,
+
+    "nameEnglish": "Scizor",
+    "nameFrench": "Cizayox",
+    "nameJapanese": "ハッサム",
+
+    "regularForm": "../assets/artworkGen2/212Scizor.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Scizor.gif",
+    "shinyAnimation": "../assets/animationGen2/Scizor_Shiny.gif",
+    "regularAnimationBack": null,
+    "shinyAnimationBack": null,
+
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Scyther",
+      "Scizor"
     ],
     "forms": [],
 
@@ -87,6 +363,187 @@
       "Corsola",
       "Galarian Corsola"
     ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 230,
+    "idRegional": null,
+
+    "nameEnglish": "Kingdra",
+    "nameFrench": "Hyporoi",
+    "nameJapanese": "キングドラ",
+
+    "regularForm": "../assets/artworkGen2/230Kingdra.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Kingdra.gif",
+    "shinyAnimation": "../assets/animationGen2/Kingdra_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Kingdra.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Kingdra_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Horsea",
+      "Seadra",
+      "Kingdra"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 233,
+    "idRegional": null,
+
+    "nameEnglish": "Porygon2",
+    "nameFrench": "Porygon2",
+    "nameJapanese": "ポリゴン２",
+
+    "regularForm": "../assets/artworkGen2/233Porygon2.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Porygon2.gif",
+    "shinyAnimation": "../assets/animationGen2/Porygon2_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Porygon2.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Porygon2_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Porygon",
+      "Porygon2",
+      "Porygon-Z"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 238,
+    "idRegional": null,
+
+    "nameEnglish": "Smoochum",
+    "nameFrench": "Lippouti",
+    "nameJapanese": "ムチュール",
+
+    "regularForm": "../assets/artworkGen2/238Smoochum.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Smoochum.gif",
+    "shinyAnimation": "../assets/animationGen2/Smoochum_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Smoochum.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Smoochum_Shiny.gif",
+
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Smoochum",
+      "Jynx"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 239,
+    "idRegional": null,
+
+    "nameEnglish": "Elekid",
+    "nameFrench": "Élekid",
+    "nameJapanese": "エレキッド",
+
+    "regularForm": "../assets/artworkGen2/239Elekid.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Elekid.gif",
+    "shinyAnimation": "../assets/animationGen2/Elekid_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Elekid.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Elekid_Shiny.gif",
+
+    "types": [
+      "Electric"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Elekid",
+      "Electabuzz",
+      "Electivire"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 240,
+    "idRegional": null,
+
+    "nameEnglish": "Magby",
+    "nameFrench": "Magby",
+    "nameJapanese": "ブビィ",
+
+    "regularForm": "../assets/artworkGen2/240Magby.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Magby.gif",
+    "shinyAnimation": "../assets/animationGen2/Magby_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Magby.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Magby_Shiny.gif",
+
+    "types": [
+      "Fire"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Magby",
+      "Magmar",
+      "Magmortar"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 242,
+    "idRegional": null,
+
+    "nameEnglish": "Blissey",
+    "nameFrench": "Leuphorie",
+    "nameJapanese": "ハピナス",
+
+    "regularForm": "../assets/artworkGen2/242Blissey.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen2/Blissey.gif",
+    "shinyAnimation": "../assets/animationGen2/Blissey_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen2/Blissey.gif",
+    "shinyAnimationBack": "../assets/animationBackGen2/Blissey_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Johto",
+    "evolutionTree": [
+      "Happiny",
+      "Chansey",
+      "Blissey"
+    ],
+    "forms": [],
 
     "shinyLocked": false,
     "counter": null

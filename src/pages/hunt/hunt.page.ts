@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NavController } from '@ionic/angular'
+import { NavController } from '@ionic/angular';
 import { Router } from '@angular/router';
 import { PokemonService } from 'src/services/pokemon.service';
 import { NativePageTransitions, NativeTransitionOptions } from '@ionic-native/native-page-transitions/ngx';
@@ -20,7 +20,6 @@ export class HuntPage implements OnInit {
 
   ngOnInit() {
     this.pkmnList = this.pokemonService.getAllHunt();
-    console.log(this.pkmnList);
   }
 
   getTypeColor(type: string) {

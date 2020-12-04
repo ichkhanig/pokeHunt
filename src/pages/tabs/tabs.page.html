@@ -1,19 +1,33 @@
 <ion-header class="ion-no-border">
-  <ion-toolbar>
-    <ion-img class="bg-tab" src="../../assets/theme/pokeball-logo.png" alt="pokeball-logo"></ion-img>
-    <ion-title class="header-title">
-      <ion-buttons slot="start">
-        <ion-back-button color="danger" defaultHref="menu"></ion-back-button>
-      </ion-buttons>
-      Shiny Hunts
-    </ion-title>
-    <ion-item lines="none">Shiny Pokémon can differ in color from their normal counterparts very little (so very little) or very much. To begin shiny hunting, you first need to choose which Pokemon you want to hunt. Get armed with patience and good luck hunter!</ion-item>
 
+  <ion-toolbar *ngIf="whichSelected == 'hunt'">
+    <ion-row>
+      <ion-img class="bg-tab" src="../../assets/theme/pokeball-logo.png" alt="pokeball-logo"></ion-img>
+      <ion-title class="header-title">
+        Shiny Hunts
+      </ion-title>
+      <ion-button class="btn-add" routerLink="/new" routerDirection="forward">
+        +
+      </ion-button>
+    </ion-row>
+    <ion-item lines="none">Shiny Pokémon can differ in color from their normal counterparts very little (so very little) or very much. To begin shiny hunting, you first need to choose which Pokemon you want to hunt. Get armed with patience and good luck hunter!</ion-item>
   </ion-toolbar>
+
+  <ion-toolbar *ngIf="whichSelected == 'shiny'">
+    <ion-row>
+      <ion-img class="bg-tab" src="../../assets/theme/pokeball-logo.png" alt="pokeball-logo"></ion-img>
+      <ion-title class="header-title">
+        Shinies
+      </ion-title>
+    </ion-row>
+    <ion-item lines="none">Lucky You !! Look at all those shinies you got. But it's a long journey, I bet you can get even more. Why don't you try and hunt another little companion.</ion-item>
+  </ion-toolbar>
+
 </ion-header>
 
 <ion-content>
-  <ion-tabs>
+
+  <ion-tabs #tabs (ionTabsDidChange)="selectedTab()">
     <ion-tab-bar slot="top">
       <ion-tab-button tab="hunt">
         <ion-label>Hunting</ion-label>
@@ -23,4 +37,5 @@
       </ion-tab-button>
     </ion-tab-bar>
   </ion-tabs>
+
 </ion-content>

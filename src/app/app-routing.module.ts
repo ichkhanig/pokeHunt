@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'hunt/:id', loadChildren: () => import('../pages/hunt/hunt-detail/hunt-detail.module').then( m => m.HuntDetailPageModule) },
   { path: 'tabs', loadChildren: () => import('../pages/tabs/tabs.module').then( m => m.TabsPageModule) },
   { path: 'dex', loadChildren: () => import('../pages/dex/dex.module').then( m => m.DexPageModule) },
+  { path: 'shiny', loadChildren: () => import('../pages/shiny/shiny.module').then( m => m.ShinyPageModule) },
 ];
 
 @NgModule({

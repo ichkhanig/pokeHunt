@@ -8,6 +8,7 @@ import { TabsPageRoutingModule } from './tabs-routing.module';
 
 import { TabsPage } from './tabs.page';
 import { HuntPageModule } from '../hunt/hunt.module';
+import { ShinyPageModule } from '../shiny/shiny.module';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { HuntPageModule } from '../hunt/hunt.module';
     FormsModule,
     IonicModule,
     TabsPageRoutingModule,
-    HuntPageModule
+    HuntPageModule,
+    ShinyPageModule
   ],
   declarations: [TabsPage]
 })

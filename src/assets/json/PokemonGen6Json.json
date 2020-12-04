@@ -8,12 +8,12 @@
     "nameFrench": "Nymphali",
     "nameJapanese": "ニンフィア",
 
-    "regularForm": "../assets/artworkGen4/700Sylveon.png",
+    "regularForm": "../assets/artworkGen6/700Sylveon.png",
     "shinyForm": null,
-    "regularAnimation": "../assets/animationGen4/Sylveon.gif",
-    "shinyAnimation": "../assets/animationGen4/Sylveon_Shiny.gif",
-    "regularAnimationBack": "../assets/animationBackGen4/Sylveon.gif",
-    "shinyAnimationBack": "../assets/animationBackGen4/Sylveon_Shiny.gif",
+    "regularAnimation": "../assets/animationGen6/Sylveon.gif",
+    "shinyAnimation": "../assets/animationGen6/Sylveon_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen6/Sylveon.gif",
+    "shinyAnimationBack": "../assets/animationBackGen6/Sylveon_Shiny.gif",
 
     "types": [
       "Fairy"
