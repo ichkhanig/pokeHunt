@@ -130,5 +130,65 @@
 
     "shinyLocked": false,
     "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 298,
+    "idRegional": null,
+
+    "nameEnglish": "Azurill",
+    "nameFrench": "Azurill",
+    "nameJapanese": "ルリリ",
+
+    "regularForm": "../assets/artworkGen3/298Azurill.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen3/Azurill.gif",
+    "shinyAnimation": "../assets/animationGen3/Azurill_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen3/Azurill.gif",
+    "shinyAnimationBack": "../assets/animationBackGen3/Azurill_Shiny.gif",
+
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "region": "Galar",
+    "evolutionTree": [
+      "Azurill",
+      "Marill",
+      "Azumarill"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 360,
+    "idRegional": null,
+
+    "nameEnglish": "Wynaut",
+    "nameFrench": "Okéoké",
+    "nameJapanese": "ソーナノ",
+
+    "regularForm": "../assets/artworkGen3/360Wynaut.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen3/Wynaut.gif",
+    "shinyAnimation": "../assets/animationGen3/Wynaut_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen3/Wynaut.gif",
+    "shinyAnimationBack": "../assets/animationBackGen3/Wynaut_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Hoenn",
+    "evolutionTree": [
+      "Wynaut",
+      "Wobbuffet"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
   }
 ]

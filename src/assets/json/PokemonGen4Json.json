@@ -1,6 +1,123 @@
 [
   {
     "id": null,
+    "idNational": 424,
+    "idRegional": null,
+
+    "nameEnglish": "Ambipom",
+    "nameFrench": "Capidextre",
+    "nameJapanese": "エテボース",
+
+    "regularForm": "../assets/artworkGen4/424Ambipom.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Ambipom.gif",
+    "shinyAnimation": "../assets/animationGen4/Ambipom_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Ambipom.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Ambipom_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Aipom",
+      "Ambipom"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 429,
+    "idRegional": null,
+
+    "nameEnglish": "Mismagius",
+    "nameFrench": "Magirêve",
+    "nameJapanese": "ムウマージ",
+
+    "regularForm": "../assets/artworkGen4/429Mismagius.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Mismagius.gif",
+    "shinyAnimation": "../assets/animationGen4/Mismagius_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Mismagius.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Mismagius_Shiny.gif",
+
+    "types": [
+      "Ghost"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Misdreavus",
+      "Mismagius"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 430,
+    "idRegional": null,
+
+    "nameEnglish": "Honchkrow",
+    "nameFrench": "Corboss",
+    "nameJapanese": "ドンカラス",
+
+    "regularForm": "../assets/artworkGen4/430Honchkrow.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Honchkrow.gif",
+    "shinyAnimation": "../assets/animationGen4/Honchkrow_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Honchkrow.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Honchkrow_Shiny.gif",
+
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Murkrow",
+      "Honchkrow"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 438,
+    "idRegional": null,
+
+    "nameEnglish": "Bonsly",
+    "nameFrench": "Manzaï",
+    "nameJapanese": "ウソハチ",
+
+    "regularForm": "../assets/artworkGen4/438Bonsly.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Bonsly.gif",
+    "shinyAnimation": "../assets/animationGen4/Bonsly_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Bonsly.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Bonsly_Shiny.gif",
+
+    "types": [
+      "Rock"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Bonsly",
+      "Sudowoodo"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
     "idNational": 439,
     "idRegional": null,
 
@@ -55,6 +172,66 @@
       "Happiny",
       "Chansey",
       "Blissey"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 458,
+    "idRegional": null,
+
+    "nameEnglish": "Mantyke",
+    "nameFrench": "Babimanta",
+    "nameJapanese": "タマンタ",
+
+    "regularForm": "../assets/artworkGen4/458Mantyke.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Mantyke.gif",
+    "shinyAnimation": "../assets/animationGen4/Mantyke_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Mantyke.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Mantyke_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Mantyke",
+      "Mantine"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 461,
+    "idRegional": null,
+
+    "nameEnglish": "Weavile",
+    "nameFrench": "Dimoret",
+    "nameJapanese": "マニューラ",
+
+    "regularForm": "../assets/artworkGen4/461Weavile.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Weavile.gif",
+    "shinyAnimation": "../assets/animationGen4/Weavile_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Weavile.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Weavile_Shiny.gif",
+
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Sneasel",
+      "Weavile"
     ],
     "forms": [],
 
@@ -243,6 +420,67 @@
   },
   {
     "id": null,
+    "idNational": 468,
+    "idRegional": null,
+
+    "nameEnglish": "Togekiss",
+    "nameFrench": "Togekiss",
+    "nameJapanese": "トゲキッス",
+
+    "regularForm": "../assets/artworkGen4/468Togekiss.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Togekiss.gif",
+    "shinyAnimation": "../assets/animationGen4/Togekiss_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Togekiss.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Togekiss_Shiny.gif",
+
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Togepi",
+      "Togetic",
+      "Togekiss"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 469,
+    "idRegional": null,
+
+    "nameEnglish": "Yanmega",
+    "nameFrench": "Yanmega",
+    "nameJapanese": "メガヤンマ",
+
+    "regularForm": "../assets/artworkGen4/469Yanmega.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Yanmega.gif",
+    "shinyAnimation": "../assets/animationGen4/Yanmega_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Yanmega.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Yanmega_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Yanma",
+      "Yanmega"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
     "idNational": 470,
     "idRegional": null,
 
@@ -293,6 +531,67 @@
     "evolutionTree": [
       "Eevee",
       "Glaceon"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 472,
+    "idRegional": null,
+
+    "nameEnglish": "Gliscor",
+    "nameFrench": "Scorvol",
+    "nameJapanese": "グライオン",
+
+    "regularForm": "../assets/artworkGen4/472Gliscor.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Gliscor.gif",
+    "shinyAnimation": "../assets/animationGen4/Gliscor_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Gliscor.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Gliscor_Shiny.gif",
+
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Gligar",
+      "Gliscor"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 473,
+    "idRegional": null,
+
+    "nameEnglish": "Mamoswine",
+    "nameFrench": "Mammochon",
+    "nameJapanese": "マンムー",
+
+    "regularForm": "../assets/artworkGen4/473Mamoswine.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Mamoswine.gif",
+    "shinyAnimation": "../assets/animationGen4/Mamoswine_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Mamoswine.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Mamoswine_Shiny.gif",
+
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Swinub",
+      "Piloswine",
+      "Mamoswine"
     ],
     "forms": [],
 

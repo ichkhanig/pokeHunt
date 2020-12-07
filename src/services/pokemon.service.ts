@@ -96,6 +96,14 @@ export class PokemonService {
     return this.pkmnList.find(({nameEnglish}) => nameEnglish == namePokemon);
   }
 
+  increaseCounter(id: number) {
+    this.huntList.forEach((value) => {
+      if (value.id == id) {
+        value.counter++;
+      }
+    });
+  }
+
   produceTypeColor(type: string) {
     switch (type) {
       case "Bug":

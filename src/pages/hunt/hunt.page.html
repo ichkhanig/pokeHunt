@@ -1,4 +1,4 @@
-<ion-content appSwipe (swipeLeft)="onSwipeLeft($event)">
+<ion-content appSwipe (swipeLeft)="onSwipeLeft($event)" (swipeRight)="onSwipeRight($event)">
 
   <ion-button *ngFor="let pkmn of pkmnList"
               class="btn-hunt"
@@ -12,7 +12,9 @@
 
     <ion-title class="counterTitle">Counter: {{pkmn.counter}}</ion-title>
 
-    <div class="icon"></div>
+    <div class="icon" *ngIf="pkmn.types[1] !== undefined" [style]="{'background': getTypeColor(pkmn.types[1])}"></div>
+    <div class="icon" *ngIf="pkmn.types[1] === undefined"></div>
+
     <ion-img class="pkmnRegularForm" slot="end" [src]="pkmn.regularForm"></ion-img>
   </ion-button>
 

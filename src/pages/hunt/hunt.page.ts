@@ -38,4 +38,8 @@ export class HuntPage implements OnInit {
     this.nativePageTransitions.slide(options);
     this.navController.navigateBack(['/menu']);
   }
+
+  onSwipeRight($event) {
+    this.router.navigate(['/tabs/tab/shiny']);
+  }
 }

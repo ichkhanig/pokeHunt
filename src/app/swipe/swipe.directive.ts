@@ -49,7 +49,7 @@ export class SwipeDirective implements AfterViewInit {
     const timeDiff = event.timeStamp - this.time;
 
     if (timeDiff < 500) {
-      if (Math.abs(xDiff) > 60) {
+      if (Math.abs(xDiff) > 80) {
         if (xDiff > 0) {
           this.swipeRight.emit(event);
         } else {
@@ -59,7 +59,7 @@ export class SwipeDirective implements AfterViewInit {
 
     }
 
-    if (Math.abs(yDiff) > 60) {
+    if (Math.abs(yDiff) > 80) {
       if (yDiff > 0) {
         this.swipeDown.emit(event);
       } else {

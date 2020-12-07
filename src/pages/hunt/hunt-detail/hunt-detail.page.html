@@ -1,15 +1,29 @@
-<ion-header>
+<ion-header class="ion-no-border">
   <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button defaultHref="tabs/tab/hunt"></ion-back-button>
-    </ion-buttons>
-    <ion-title>hunt-detail</ion-title>
+    <ion-title>{{pokemon.nameEnglish}}</ion-title>
+    <ion-title slot="end" *ngIf="pokemon.idNational < 10">#00{{pokemon.idNational}}</ion-title>
+    <ion-title slot="end" *ngIf="pokemon.idNational >= 10 && pokemon.idNational < 100">#0{{pokemon.idNational}}</ion-title>
+    <ion-title slot="end" *ngIf="pokemon.idNational >= 100">#{{pokemon.idNational}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
+
 <ion-content fullscreen appSwipe (swipeLeft)="onSwipeLeft($event)">
-  <button class="btn-change-view" (click)="changeView = !changeView">
-    <ion-img class="hunt-detail" [src]="pokemon.shinyAnimation" *ngIf="changeView"></ion-img>
-    <ion-img class="hunt-detail" [src]="pokemon.regularAnimation" *ngIf="!changeView"></ion-img>
-  </button>
+
+  <div class="bg-hunt-detail">
+
+    <ion-label class="hunt-name">{{pokemon.nameEnglish}}</ion-label>
+
+    <div class="shinyBlock">
+      <ion-col class="btn-change-view" (click)="changeView = !changeView">
+        <img class="hunt-detail" [src]="pokemon.shinyAnimation" *ngIf="changeView">
+        <img class="hunt-detail" [src]="pokemon.regularAnimation" *ngIf="!changeView">
+      </ion-col>
+      <ion-title class="hunt-counter">{{pokemon.counter}}</ion-title>
+    </div>
+
+    <button class="btn-add" (click)="onAddCounter(pokemon.id)"></button>
+
+  </div>
+
 </ion-content>

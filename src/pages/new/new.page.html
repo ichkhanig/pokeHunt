@@ -21,7 +21,8 @@
     <img class="typeIcon" [src]="getTypeIcon(pkmn.types[0])">
     <img class="typeIcon2" *ngIf="pkmn.types[1] !== undefined" [src]="getTypeIcon(pkmn.types[1])">
 
-    <div class="icon"></div>
+    <div class="icon" *ngIf="pkmn.types[1] !== undefined" [style]="{'background': getTypeColor(pkmn.types[1])}"></div>
+    <div class="icon" *ngIf="pkmn.types[1] === undefined"></div>
     <ion-img class="pkmnRegularForm" slot="end" [src]="pkmn.regularForm"></ion-img>
 
   </ion-button>

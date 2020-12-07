@@ -25,6 +25,10 @@ export class HuntDetailPage implements OnInit {
     console.log(this.pokemon);
   }
 
+  onAddCounter(id: number) {
+    this.pokemonService.increaseCounter(id);
+  }
+
   onSwipeLeft($event) {
     let options: NativeTransitionOptions = {
       direction: 'down',

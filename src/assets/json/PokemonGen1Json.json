@@ -1228,6 +1228,7 @@
     ],
     "region": "Kanto",
     "evolutionTree": [
+      "Cleffa",
       "Clefairy",
       "Clefable"
     ],
@@ -1257,6 +1258,7 @@
     ],
     "region": "Kanto",
     "evolutionTree": [
+      "Cleffa",
       "Clefairy",
       "Clefable"
     ],
@@ -3636,7 +3638,10 @@
       "Ground"
     ],
     "region": "Kanto",
-    "evolutionTree": [],
+    "evolutionTree": [
+      "Onix",
+      "Steelix"
+    ],
     "forms": [],
 
     "shinyLocked": false,
@@ -4026,7 +4031,10 @@
       "Fighting"
     ],
     "region": "Kanto",
-    "evolutionTree": [],
+    "evolutionTree": [
+      "Tyrogue",
+      "Hitmonlee"
+    ],
     "forms": [],
 
     "shinyLocked": false,
@@ -4052,7 +4060,10 @@
       "Fighting"
     ],
     "region": "Kanto",
-    "evolutionTree": [],
+    "evolutionTree": [
+      "Tyrogue",
+      "Hitmonchan"
+    ],
     "forms": [],
 
     "shinyLocked": false,
