@@ -1,5 +1,5 @@
 <ion-header class="ion-no-border">
-  <ion-toolbar>
+  <ion-toolbar [style]="{'--background': getTypeColor(pokemon.types[0])}">
     <ion-title>{{pokemon.nameEnglish}}</ion-title>
     <ion-title slot="end" *ngIf="pokemon.idNational < 10">#00{{pokemon.idNational}}</ion-title>
     <ion-title slot="end" *ngIf="pokemon.idNational >= 10 && pokemon.idNational < 100">#0{{pokemon.idNational}}</ion-title>
@@ -7,23 +7,30 @@
   </ion-toolbar>
 </ion-header>
 
+<ion-content fullscreen appSwipe (swipeUp)="onSwipeUp($event)">
 
-<ion-content fullscreen appSwipe (swipeLeft)="onSwipeLeft($event)">
+  <ion-button class="btn-set" [style]="{'--background': getTypeColor(pokemon.types[0])}" (click)="onSetCounter(pokemon.id)">
+    <img src="" alt="set-btn">
+  </ion-button>
+  <ion-button class="btn-reset" [style]="{'--background': getTypeColor(pokemon.types[0])}" (click)="onResetCounter(pokemon.id)">
+    <img src="" alt="reset-btn">
+  </ion-button>
+  <ion-button class="btn-shiny" [style]="{'--background': getTypeColor(pokemon.types[0])}" (click)="onGotShiny(pokemon.id)">
+    <img src="../../../assets/theme/shiny-btn.png" alt="shiny-btn">
+  </ion-button>
+  <ion-button class="btn-del" [style]="{'--background': getTypeColor(pokemon.types[0])}" (click)="onDeleteHunt(pokemon.id)">
+    <img src="" alt="del-btn">
+  </ion-button>
 
-  <div class="bg-hunt-detail">
+  <div>
+    <button class="btn-change-view" (click)="changeView = !changeView">
+      <ion-img class="hunt-detail" [src]="pokemon.shinyAnimation" *ngIf="changeView"></ion-img>
+      <ion-img class="hunt-detail" [src]="pokemon.regularAnimation" *ngIf="!changeView"></ion-img>
+    </button>
 
-    <ion-label class="hunt-name">{{pokemon.nameEnglish}}</ion-label>
-
-    <div class="shinyBlock">
-      <ion-col class="btn-change-view" (click)="changeView = !changeView">
-        <img class="hunt-detail" [src]="pokemon.shinyAnimation" *ngIf="changeView">
-        <img class="hunt-detail" [src]="pokemon.regularAnimation" *ngIf="!changeView">
-      </ion-col>
-      <ion-title class="hunt-counter">{{pokemon.counter}}</ion-title>
-    </div>
-
-    <button class="btn-add" (click)="onAddCounter(pokemon.id)"></button>
-
+    <ion-label class="hunt-counter">{{pokemon.counter}}</ion-label>
   </div>
+
+  <button class="btn-add" (click)="onAddCounter(pokemon.id)"></button>
 
 </ion-content>

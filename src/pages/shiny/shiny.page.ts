@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NavController } from '@ionic/angular';
 import { Router } from '@angular/router';
 import { PokemonService } from 'src/services/pokemon.service';
 
@@ -13,14 +12,17 @@ export class ShinyPage implements OnInit {
   private pkmnList;
 
   constructor(private pokemonService: PokemonService,
-              private router: Router,
-              private navController: NavController) { }
+              private router: Router) { }
 
   ngOnInit() {
     this.pkmnList = this.pokemonService.getAllShiny();
   }
 
+  getTypeColor(type: string) {
+    return this.pokemonService.produceTypeColor(type);
+  }
+
   onSwipeLeft($event) {
-    this.router.navigate(['/tabs/tab/shiny']);
+    this.router.navigate(['/tabs/tab/hunt']);
   }
 }

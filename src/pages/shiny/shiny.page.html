@@ -2,8 +2,7 @@
 
   <ion-button *ngFor="let pkmn of pkmnList"
               class="btn-hunt"
-              [style]="{'--background': getTypeColor(pkmn.types[0])}"
-              (click)="onGoToDetail(pkmn.id)">
+              [style]="{'--background': getTypeColor(pkmn.types[0])}">
 
     <div class="pkmnNumber" *ngIf="pkmn.idNational < 10">#00{{pkmn.idNational}}</div>
     <div class="pkmnNumber" *ngIf="pkmn.idNational >= 10 && pkmn.idNational < 100">#0{{pkmn.idNational}}</div>

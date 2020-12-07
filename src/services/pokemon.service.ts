@@ -55,6 +55,20 @@ export class PokemonService {
     console.log(this.huntList);
   }
 
+  addPokemonToShiny(id: number) {
+    this.shinyList.push(this.getHuntById(id));
+    this.deletePokemonFromHuntList(id);
+  }
+
+  deletePokemonFromHuntList(id: number) {
+    this.huntList.splice(id, 1);
+    this.huntList.forEach(function (value) {
+      if (value.id > id)
+        value.id--;
+    });
+    this.count--;
+  }
+
   findEvolutionOrForms(search: string[]) {
     let tmpList: Pokemon[] = [];
     for (var val of search) {
@@ -84,7 +98,7 @@ export class PokemonService {
     return this.shinyList;
   }
 
-  getPokemonById(idPkmn: number) {
+  getHuntById(idPkmn: number) {
     return this.huntList.find(({id}) => id == idPkmn);
   }
 
