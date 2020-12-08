@@ -24,8 +24,8 @@
 
   <div>
     <button class="btn-change-view" (click)="changeView = !changeView">
-      <ion-img class="hunt-detail" [src]="pokemon.shinyAnimation" *ngIf="changeView"></ion-img>
-      <ion-img class="hunt-detail" [src]="pokemon.regularAnimation" *ngIf="!changeView"></ion-img>
+      <img class="hunt-detail" [src]="pokemon.shinyAnimation" *ngIf="changeView">
+      <img class="hunt-detail" [src]="pokemon.regularAnimation" *ngIf="!changeView">
     </button>
 
     <ion-label class="hunt-counter">{{pokemon.counter}}</ion-label>

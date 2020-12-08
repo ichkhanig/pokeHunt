@@ -12,6 +12,7 @@ ion-content {
 
 ion-title {
   padding: 30px;
+  width: 350px;
 }
 
 ion-title, .hunt-counter {
@@ -38,8 +39,8 @@ ion-title, .hunt-counter {
 }
 
 .hunt-detail {
-  width: 100px;
   margin: 0 auto;
+  transform:scale(1.5);
 }
 
 .hunt-counter {
@@ -77,6 +78,6 @@ ion-title, .hunt-counter {
 }
 
 .btn-shiny img {
-  width: 40px;
-  height: 40px;
+  max-width: 40px;
+  max-height: 40px;
 }

@@ -1,6 +1,68 @@
 [
   {
     "id": null,
+    "idNational": 406,
+    "idRegional": null,
+
+    "nameEnglish": "Budew",
+    "nameFrench": "Rozbouton",
+    "nameJapanese": "スボミー",
+
+    "regularForm": "../assets/artworkGen4/406Budew.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Budew.gif",
+    "shinyAnimation": "../assets/animationGen4/Budew_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Budew.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Budew_Shiny.gif",
+
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Budew",
+      "Roselia",
+      "Roserade"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 407,
+    "idRegional": null,
+
+    "nameEnglish": "Roserade",
+    "nameFrench": "Roserade",
+    "nameJapanese": "ロズレイド",
+
+    "regularForm": "../assets/artworkGen4/407Roserade.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Roserade.gif",
+    "shinyAnimation": "../assets/animationGen4/Roserade_Shiny.gif",
+    "regularAnimationBack": null,
+    "shinyAnimationBack": null,
+
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Budew",
+      "Roselia",
+      "Roserade"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
     "idNational": 424,
     "idRegional": null,
 
@@ -81,6 +143,35 @@
     "evolutionTree": [
       "Murkrow",
       "Honchkrow"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 433,
+    "idRegional": null,
+
+    "nameEnglish": "Chingling",
+    "nameFrench": "Korillon",
+    "nameJapanese": "リーシャン",
+
+    "regularForm": "../assets/artworkGen4/433Chingling.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Chingling.gif",
+    "shinyAnimation": "../assets/animationGen4/Chingling_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Chingling.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Chingling_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Chingling",
+      "Chimecho"
     ],
     "forms": [],
 
@@ -622,6 +713,127 @@
       "Porygon",
       "Porygon2",
       "Porygon-Z"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 475,
+    "idRegional": null,
+
+    "nameEnglish": "Gallade",
+    "nameFrench": "Gallame",
+    "nameJapanese": "エルレイド",
+
+    "regularForm": "../assets/artworkGen4/475Gallade.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Gallade.gif",
+    "shinyAnimation": "../assets/animationGen4/Gallade_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Gallade.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Gallade_Shiny.gif",
+
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Ralts",
+      "Kirlia",
+      "Gallade"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 476,
+    "idRegional": null,
+
+    "nameEnglish": "Probopass",
+    "nameFrench": "Tarinorme",
+    "nameJapanese": "ダイノーズ",
+
+    "regularForm": "../assets/artworkGen4/476Probopass.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Probopass.gif",
+    "shinyAnimation": "../assets/animationGen4/Probopass_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Probopass.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Probopass_Shiny.gif",
+
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Nosepass",
+      "Probopass"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 477,
+    "idRegional": null,
+
+    "nameEnglish": "Dusknoir",
+    "nameFrench": "Noctunoir",
+    "nameJapanese": "ヨノワール",
+
+    "regularForm": "../assets/artworkGen4/477Dusknoir.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Dusknoir.gif",
+    "shinyAnimation": "../assets/animationGen4/Dusknoir_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Dusknoir.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Dusknoir_Shiny.gif",
+
+    "types": [
+      "Ghost"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Duskull",
+      "Dusclops",
+      "Dusknoir"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 478,
+    "idRegional": null,
+
+    "nameEnglish": "Froslass",
+    "nameFrench": "Momartik",
+    "nameJapanese": "ユキメノコ",
+
+    "regularForm": "../assets/artworkGen4/478Froslass.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen4/Froslass.gif",
+    "shinyAnimation": "../assets/animationGen4/Froslass_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen4/Froslass.gif",
+    "shinyAnimationBack": "../assets/animationBackGen4/Froslass_Shiny.gif",
+
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "region": "Sinnoh",
+    "evolutionTree": [
+      "Snorunt",
+      "Froslass"
     ],
     "forms": [],
 
