@@ -5187,7 +5187,10 @@
       "Normal"
     ],
     "region": "Kanto",
-    "evolutionTree": [],
+    "evolutionTree": [
+      "Munchlax",
+      "Snorlax"
+    ],
     "forms": [],
 
     "shinyLocked": false,
