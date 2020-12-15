@@ -5253,7 +5253,7 @@
       "Galarian Articuno"
     ],
 
-    "shinyLocked": false,
+    "shinyLocked": true,
     "counter": null
   },
   {
@@ -5313,7 +5313,7 @@
       "Galarian Zapdos"
     ],
 
-    "shinyLocked": false,
+    "shinyLocked": true,
     "counter": null
   },
   {
@@ -5373,7 +5373,7 @@
       "Galarian Moltres"
     ],
 
-    "shinyLocked": false,
+    "shinyLocked": true,
     "counter": null
   },
   {

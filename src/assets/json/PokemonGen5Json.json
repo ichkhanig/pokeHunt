@@ -1,6 +1,2087 @@
 [
   {
     "id": null,
+    "idNational": 494,
+    "idRegional": null,
+
+    "nameEnglish": "Victini",
+    "nameFrench": "Victini",
+    "nameJapanese": "ビクティニ",
+
+    "regularForm": "../assets/artworkGen5/494Victini.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Victini.gif",
+    "shinyAnimation": "../assets/animationGen5/Victini_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Victini.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Victini_Shiny.gif",
+
+    "types": [
+      "Psychic",
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": true,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 495,
+    "idRegional": null,
+
+    "nameEnglish": "Snivy",
+    "nameFrench": "Vipélierre",
+    "nameJapanese": "ツタージャ",
+
+    "regularForm": "../assets/artworkGen5/495Snivy.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Snivy.gif",
+    "shinyAnimation": "../assets/animationGen5/Snivy_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Snivy.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Snivy_Shiny.gif",
+
+    "types": [
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Snivy",
+      "Servine",
+      "Serperior"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 496,
+    "idRegional": null,
+
+    "nameEnglish": "Servine",
+    "nameFrench": "Lianaja",
+    "nameJapanese": "ジャノビー",
+
+    "regularForm": "../assets/artworkGen5/496Servine.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Servine.gif",
+    "shinyAnimation": "../assets/animationGen5/Servine_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Servine.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Servine_Shiny.gif",
+
+    "types": [
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Snivy",
+      "Servine",
+      "Serperior"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 497,
+    "idRegional": null,
+
+    "nameEnglish": "Serperior",
+    "nameFrench": "Majaspic",
+    "nameJapanese": "ジャローダ",
+
+    "regularForm": "../assets/artworkGen5/497Serperior.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Serperior.gif",
+    "shinyAnimation": "../assets/animationGen5/Serperior_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Serperior.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Serperior_Shiny.gif",
+
+    "types": [
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Snivy",
+      "Servine",
+      "Serperior"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 498,
+    "idRegional": null,
+
+    "nameEnglish": "Tepig",
+    "nameFrench": "Gruikui",
+    "nameJapanese": "ポカブ",
+
+    "regularForm": "../assets/artworkGen5/498Tepig.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Tepig.gif",
+    "shinyAnimation": "../assets/animationGen5/Tepig_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Tepig.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Tepig_Shiny.gif",
+
+    "types": [
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Tepig",
+      "Pignite",
+      "Emboar"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 499,
+    "idRegional": null,
+
+    "nameEnglish": "Pignite",
+    "nameFrench": "Grotichon",
+    "nameJapanese": "チャオブー",
+
+    "regularForm": "../assets/artworkGen5/499Pignite.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Pignite.gif",
+    "shinyAnimation": "../assets/animationGen5/Pignite_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Pignite.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Pignite_Shiny.gif",
+
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Tepig",
+      "Pignite",
+      "Emboar"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 500,
+    "idRegional": null,
+
+    "nameEnglish": "Emboar",
+    "nameFrench": "Roitiflam",
+    "nameJapanese": "エンブオー",
+
+    "regularForm": "../assets/artworkGen5/500Emboar.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Emboar.gif",
+    "shinyAnimation": "../assets/animationGen5/Emboar_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Emboar.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Emboar_Shiny.gif",
+
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Tepig",
+      "Pignite",
+      "Emboar"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 501,
+    "idRegional": null,
+
+    "nameEnglish": "Oshawott",
+    "nameFrench": "Moustillon",
+    "nameJapanese": "ミジュマル",
+
+    "regularForm": "../assets/artworkGen5/501Oshawott.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Oshawott.gif",
+    "shinyAnimation": "../assets/animationGen5/Oshawott_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Oshawott.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Oshawott_Shiny.gif",
+
+    "types": [
+      "Water"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Oshawott",
+      "Dewott",
+      "Samurott"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 502,
+    "idRegional": null,
+
+    "nameEnglish": "Dewott",
+    "nameFrench": "Mateloutre",
+    "nameJapanese": "フタチマル",
+
+    "regularForm": "../assets/artworkGen5/502Dewott.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Dewott.gif",
+    "shinyAnimation": "../assets/animationGen5/Dewott_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Dewott.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Dewott_Shiny.gif",
+
+    "types": [
+      "Water"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Oshawott",
+      "Dewott",
+      "Samurott"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 503,
+    "idRegional": null,
+
+    "nameEnglish": "Samurott",
+    "nameFrench": "Clamiral",
+    "nameJapanese": "ダイケンキ",
+
+    "regularForm": "../assets/artworkGen5/503Samurott.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Samurott.gif",
+    "shinyAnimation": "../assets/animationGen5/Samurott_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Samurott.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Samurott_Shiny.gif",
+
+    "types": [
+      "Water"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Oshawott",
+      "Dewott",
+      "Samurott"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 504,
+    "idRegional": null,
+
+    "nameEnglish": "Patrat",
+    "nameFrench": "Ratentif",
+    "nameJapanese": "ミネズミ",
+
+    "regularForm": "../assets/artworkGen5/504Patrat.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Patrat.gif",
+    "shinyAnimation": "../assets/animationGen5/Patrat_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Patrat.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Patrat_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Patrat",
+      "Watchog"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 505,
+    "idRegional": null,
+
+    "nameEnglish": "Watchog",
+    "nameFrench": "Miradar",
+    "nameJapanese": "ミルホッグ",
+
+    "regularForm": "../assets/artworkGen5/505Watchog.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Watchog.gif",
+    "shinyAnimation": "../assets/animationGen5/Watchog_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Watchog.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Watchog_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Patrat",
+      "Watchog"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 506,
+    "idRegional": null,
+
+    "nameEnglish": "Lillipup",
+    "nameFrench": "Ponchiot",
+    "nameJapanese": "ヨーテリー",
+
+    "regularForm": "../assets/artworkGen5/506Lillipup.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Lillipup.gif",
+    "shinyAnimation": "../assets/animationGen5/Lillipup_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Lillipup.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Lillipup_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Lillipup",
+      "Herdier",
+      "Stoutland"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 507,
+    "idRegional": null,
+
+    "nameEnglish": "Herdier",
+    "nameFrench": "Ponchien",
+    "nameJapanese": "ハーデリア",
+
+    "regularForm": "../assets/artworkGen5/507Herdier.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Herdier.gif",
+    "shinyAnimation": "../assets/animationGen5/Herdier_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Herdier.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Herdier_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Lillipup",
+      "Herdier",
+      "Stoutland"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 508,
+    "idRegional": null,
+
+    "nameEnglish": "Stoutland",
+    "nameFrench": "Mastouffe",
+    "nameJapanese": "ムーランド",
+
+    "regularForm": "../assets/artworkGen5/508Stoutland.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Stoutland.gif",
+    "shinyAnimation": "../assets/animationGen5/Stoutland_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Stoutland.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Stoutland_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Lillipup",
+      "Herdier",
+      "Stoutland"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 509,
+    "idRegional": null,
+
+    "nameEnglish": "Purrloin",
+    "nameFrench": "Chacripan",
+    "nameJapanese": "チョロネコ",
+
+    "regularForm": "../assets/artworkGen5/509Purrloin.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Purrloin.gif",
+    "shinyAnimation": "../assets/animationGen5/Purrloin_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Purrloin.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Purrloin_Shiny.gif",
+
+    "types": [
+      "Dark"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Purrloin",
+      "Liepard"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 510,
+    "idRegional": null,
+
+    "nameEnglish": "Liepard",
+    "nameFrench": "Léopardus",
+    "nameJapanese": "レパルダス",
+
+    "regularForm": "../assets/artworkGen5/510Liepard.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Liepard.gif",
+    "shinyAnimation": "../assets/animationGen5/Liepard_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Liepard.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Liepard_Shiny.gif",
+
+    "types": [
+      "Dark"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Purrloin",
+      "Liepard"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 511,
+    "idRegional": null,
+
+    "nameEnglish": "Pansage",
+    "nameFrench": "Feuillajou",
+    "nameJapanese": "ヤナップ",
+
+    "regularForm": "../assets/artworkGen5/511Pansage.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Pansage.gif",
+    "shinyAnimation": "../assets/animationGen5/Pansage_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Pansage.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Pansage_Shiny.gif",
+
+    "types": [
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Pansage",
+      "Simisage"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 512,
+    "idRegional": null,
+
+    "nameEnglish": "Simisage",
+    "nameFrench": "Feuiloutan",
+    "nameJapanese": "ヤナッキー",
+
+    "regularForm": "../assets/artworkGen5/512Simisage.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Simisage.gif",
+    "shinyAnimation": "../assets/animationGen5/Simisage_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Simisage.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Simisage_Shiny.gif",
+
+    "types": [
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Pansage",
+      "Simisage"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 513,
+    "idRegional": null,
+
+    "nameEnglish": "Pansear",
+    "nameFrench": "Flamajou",
+    "nameJapanese": "バオップ",
+
+    "regularForm": "../assets/artworkGen5/513Pansear.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Pansear.gif",
+    "shinyAnimation": "../assets/animationGen5/Pansear_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Pansear.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Pansear_Shiny.gif",
+
+    "types": [
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Pansear",
+      "Simisear"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 514,
+    "idRegional": null,
+
+    "nameEnglish": "Simisear",
+    "nameFrench": "Flamoutan",
+    "nameJapanese": "バオッキー",
+
+    "regularForm": "../assets/artworkGen5/514Simisear.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Simisear.gif",
+    "shinyAnimation": "../assets/animationGen5/Simisear_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Simisear.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Simisear_Shiny.gif",
+
+    "types": [
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Pansear",
+      "Simisear"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 515,
+    "idRegional": null,
+
+    "nameEnglish": "Panpour",
+    "nameFrench": "Flotajou",
+    "nameJapanese": "ヒヤップ",
+
+    "regularForm": "../assets/artworkGen5/515Panpour.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Panpour.gif",
+    "shinyAnimation": "../assets/animationGen5/Panpour_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Panpour.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Panpour_Shiny.gif",
+
+    "types": [
+      "Water"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Panpour",
+      "Simipour"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 516,
+    "idRegional": null,
+
+    "nameEnglish": "Simipour",
+    "nameFrench": "Flotoutan",
+    "nameJapanese": "ヒヤッキー",
+
+    "regularForm": "../assets/artworkGen5/516Simipour.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Simipour.gif",
+    "shinyAnimation": "../assets/animationGen5/Simipour_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Simipour.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Simipour_Shiny.gif",
+
+    "types": [
+      "Water"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Panpour",
+      "Simipour"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 517,
+    "idRegional": null,
+
+    "nameEnglish": "Munna",
+    "nameFrench": "Munna",
+    "nameJapanese": "ムンナ",
+
+    "regularForm": "../assets/artworkGen5/517Munna.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Munna.gif",
+    "shinyAnimation": "../assets/animationGen5/Munna_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Munna.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Munna_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Munna",
+      "Musharna"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 518,
+    "idRegional": null,
+
+    "nameEnglish": "Musharna",
+    "nameFrench": "Mushana",
+    "nameJapanese": "ムシャーナ",
+
+    "regularForm": "../assets/artworkGen5/518Musharna.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Musharna.gif",
+    "shinyAnimation": "../assets/animationGen5/Musharna_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Musharna.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Musharna_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Munna",
+      "Musharna"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 519,
+    "idRegional": null,
+
+    "nameEnglish": "Pidove",
+    "nameFrench": "Poichigeon",
+    "nameJapanese": "マメパト",
+
+    "regularForm": "../assets/artworkGen5/519Pidove.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Pidove.gif",
+    "shinyAnimation": "../assets/animationGen5/Pidove_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Pidove.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Pidove_Shiny.gif",
+
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Pidove",
+      "Tranquill",
+      "Unfezant"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 520,
+    "idRegional": null,
+
+    "nameEnglish": "Tranquill",
+    "nameFrench": "Colombeau",
+    "nameJapanese": "ハトーボー",
+
+    "regularForm": "../assets/artworkGen5/520Tranquill.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Tranquill.gif",
+    "shinyAnimation": "../assets/animationGen5/Tranquill_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Tranquill.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Tranquill_Shiny.gif",
+
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Pidove",
+      "Tranquill",
+      "Unfezant"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 521,
+    "idRegional": null,
+
+    "nameEnglish": "Unfezant",
+    "nameFrench": "Déflaisan",
+    "nameJapanese": "ケンホロウ",
+
+    "regularForm": "../assets/artworkGen5/521Unfezant.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Unfezant.gif",
+    "shinyAnimation": "../assets/animationGen5/Unfezant_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Unfezant.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Unfezant_Shiny.gif",
+
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Pidove",
+      "Tranquill",
+      "Unfezant"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 522,
+    "idRegional": null,
+
+    "nameEnglish": "Blitzle",
+    "nameFrench": "Zébibron",
+    "nameJapanese": "シママ",
+
+    "regularForm": "../assets/artworkGen5/522Blitzle.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Blitzle.gif",
+    "shinyAnimation": "../assets/animationGen5/Blitzle_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Blitzle.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Blitzle_Shiny.gif",
+
+    "types": [
+      "Electric"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Blitzle",
+      "Zebstrika"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 523,
+    "idRegional": null,
+
+    "nameEnglish": "Zebstrika",
+    "nameFrench": "Zéblitz",
+    "nameJapanese": "ゼブライカ",
+
+    "regularForm": "../assets/artworkGen5/523Zebstrika.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Zebstrika.gif",
+    "shinyAnimation": "../assets/animationGen5/Zebstrika_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Zebstrika.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Zebstrika_Shiny.gif",
+
+    "types": [
+      "Electric"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Blitzle",
+      "Zebstrika"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 524,
+    "idRegional": null,
+
+    "nameEnglish": "Roggenrola",
+    "nameFrench": "Nodulithe",
+    "nameJapanese": "ダンゴロ",
+
+    "regularForm": "../assets/artworkGen5/524Roggenrola.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Roggenrola.gif",
+    "shinyAnimation": "../assets/animationGen5/Roggenrola_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Roggenrola.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Roggenrola_Shiny.gif",
+
+    "types": [
+      "Rock"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Roggenrola",
+      "Boldore",
+      "Gigalith"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 525,
+    "idRegional": null,
+
+    "nameEnglish": "Boldore",
+    "nameFrench": "Géolithe",
+    "nameJapanese": "ガントル",
+
+    "regularForm": "../assets/artworkGen5/525Boldore.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Boldore.gif",
+    "shinyAnimation": "../assets/animationGen5/Boldore_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Boldore.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Boldore_Shiny.gif",
+
+    "types": [
+      "Rock"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Roggenrola",
+      "Boldore",
+      "Gigalith"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 526,
+    "idRegional": null,
+
+    "nameEnglish": "Gigalith",
+    "nameFrench": "Gigalithe",
+    "nameJapanese": "ギガイアス",
+
+    "regularForm": "../assets/artworkGen5/526Gigalith.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Gigalith.gif",
+    "shinyAnimation": "../assets/animationGen5/Gigalith_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Gigalith.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Gigalith_Shiny.gif",
+
+    "types": [
+      "Rock"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Roggenrola",
+      "Boldore",
+      "Gigalith"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 527,
+    "idRegional": null,
+
+    "nameEnglish": "Woobat",
+    "nameFrench": "Chovsourir",
+    "nameJapanese": "コロモリ",
+
+    "regularForm": "../assets/artworkGen5/527Woobat.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Woobat.gif",
+    "shinyAnimation": "../assets/animationGen5/Woobat_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Woobat.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Woobat_Shiny.gif",
+
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Woobat",
+      "Swoobat"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 528,
+    "idRegional": null,
+
+    "nameEnglish": "Swoobat",
+    "nameFrench": "Rhinolove",
+    "nameJapanese": "ココロモリ",
+
+    "regularForm": "../assets/artworkGen5/528Swoobat.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Swoobat.gif",
+    "shinyAnimation": "../assets/animationGen5/Swoobat_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Swoobat.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Swoobat_Shiny.gif",
+
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Woobat",
+      "Swoobat"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 529,
+    "idRegional": null,
+
+    "nameEnglish": "Drilbur",
+    "nameFrench": "Rototaupe",
+    "nameJapanese": "モグリュー",
+
+    "regularForm": "../assets/artworkGen5/529Drilbur.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Drilbur.gif",
+    "shinyAnimation": "../assets/animationGen5/Drilbur_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Drilbur.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Drilbur_Shiny.gif",
+
+    "types": [
+      "Ground"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Drilbur",
+      "Excadrill"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 530,
+    "idRegional": null,
+
+    "nameEnglish": "Excadrill",
+    "nameFrench": "Minotaupe",
+    "nameJapanese": "ドリュウズ",
+
+    "regularForm": "../assets/artworkGen5/530Excadrill.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Excadrill.gif",
+    "shinyAnimation": "../assets/animationGen5/Excadrill_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Excadrill.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Excadrill_Shiny.gif",
+
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Drilbur",
+      "Excadrill"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 531,
+    "idRegional": null,
+
+    "nameEnglish": "Audino",
+    "nameFrench": "Nanméouïe",
+    "nameJapanese": "タブンネ",
+
+    "regularForm": "../assets/artworkGen5/531Audino.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Audino.gif",
+    "shinyAnimation": "../assets/animationGen5/Audino_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Audino.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Audino_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 532,
+    "idRegional": null,
+
+    "nameEnglish": "Timburr",
+    "nameFrench": "Charpenti",
+    "nameJapanese": "ドッコラー",
+
+    "regularForm": "../assets/artworkGen5/532Timburr.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Timburr.gif",
+    "shinyAnimation": "../assets/animationGen5/Timburr_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Timburr.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Timburr_Shiny.gif",
+
+    "types": [
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Timburr",
+      "Gurdurr",
+      "Conkeldurr"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 533,
+    "idRegional": null,
+
+    "nameEnglish": "Gurdurr",
+    "nameFrench": "Ouvrifier",
+    "nameJapanese": "ドテッコツ",
+
+    "regularForm": "../assets/artworkGen5/533Gurdurr.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Gurdurr.gif",
+    "shinyAnimation": "../assets/animationGen5/Gurdurr_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Gurdurr.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Gurdurr_Shiny.gif",
+
+    "types": [
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Timburr",
+      "Gurdurr",
+      "Conkeldurr"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 534,
+    "idRegional": null,
+
+    "nameEnglish": "Conkeldurr",
+    "nameFrench": "Bétochef",
+    "nameJapanese": "ローブシン",
+
+    "regularForm": "../assets/artworkGen5/534Conkeldurr.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Conkeldurr.gif",
+    "shinyAnimation": "../assets/animationGen5/Conkeldurr_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Conkeldurr.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Conkeldurr_Shiny.gif",
+
+    "types": [
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Timburr",
+      "Gurdurr",
+      "Conkeldurr"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 535,
+    "idRegional": null,
+
+    "nameEnglish": "Tympole",
+    "nameFrench": "Tritonde",
+    "nameJapanese": "オタマロ",
+
+    "regularForm": "../assets/artworkGen5/535Tympole.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Tympole.gif",
+    "shinyAnimation": "../assets/animationGen5/Tympole_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Tympole.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Tympole_Shiny.gif",
+
+    "types": [
+      "Water"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Tympole",
+      "Palpitoad",
+      "Seismitoad"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 536,
+    "idRegional": null,
+
+    "nameEnglish": "Palpitoad",
+    "nameFrench": "Batracné",
+    "nameJapanese": "ガマガル",
+
+    "regularForm": "../assets/artworkGen5/536Palpitoad.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Palpitoad.gif",
+    "shinyAnimation": "../assets/animationGen5/Palpitoad_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Palpitoad.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Palpitoad_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Tympole",
+      "Palpitoad",
+      "Seismitoad"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 537,
+    "idRegional": null,
+
+    "nameEnglish": "Seismitoad",
+    "nameFrench": "Crapustule",
+    "nameJapanese": "ガマゲロゲ",
+
+    "regularForm": "../assets/artworkGen5/537Seismitoad.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Seismitoad.gif",
+    "shinyAnimation": "../assets/animationGen5/Seismitoad_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Seismitoad.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Seismitoad_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Tympole",
+      "Palpitoad",
+      "Seismitoad"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 538,
+    "idRegional": null,
+
+    "nameEnglish": "Throh",
+    "nameFrench": "Judokrak",
+    "nameJapanese": "ナゲキ",
+
+    "regularForm": "../assets/artworkGen5/538Throh.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Throh.gif",
+    "shinyAnimation": "../assets/animationGen5/Throh_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Throh.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Throh_Shiny.gif",
+
+    "types": [
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 539,
+    "idRegional": null,
+
+    "nameEnglish": "Sawk",
+    "nameFrench": "Karaclée",
+    "nameJapanese": "ダゲキ",
+
+    "regularForm": "../assets/artworkGen5/539Sawk.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Sawk.gif",
+    "shinyAnimation": "../assets/animationGen5/Sawk_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Sawk.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Sawk_Shiny.gif",
+
+    "types": [
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 540,
+    "idRegional": null,
+
+    "nameEnglish": "Sewaddle",
+    "nameFrench": "Larveyette",
+    "nameJapanese": "クルミル",
+
+    "regularForm": "../assets/artworkGen5/540Sewaddle.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Sewaddle.gif",
+    "shinyAnimation": "../assets/animationGen5/Sewaddle_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Sewaddle.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Sewaddle_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Sewaddle",
+      "Swadloon",
+      "Leavanny"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 541,
+    "idRegional": null,
+
+    "nameEnglish": "Swadloon",
+    "nameFrench": "Couverdure",
+    "nameJapanese": "クルマユ",
+
+    "regularForm": "../assets/artworkGen5/541Swadloon.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Swadloon.gif",
+    "shinyAnimation": "../assets/animationGen5/Swadloon_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Swadloon.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Swadloon_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Sewaddle",
+      "Swadloon",
+      "Leavanny"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 542,
+    "idRegional": null,
+
+    "nameEnglish": "Leavanny",
+    "nameFrench": "Manternel",
+    "nameJapanese": "ハハコモリ",
+
+    "regularForm": "../assets/artworkGen5/542Leavanny.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Leavanny.gif",
+    "shinyAnimation": "../assets/animationGen5/Leavanny_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Leavanny.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Leavanny_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Sewaddle",
+      "Swadloon",
+      "Leavanny"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 543,
+    "idRegional": null,
+
+    "nameEnglish": "Venipede",
+    "nameFrench": "Venipatte",
+    "nameJapanese": "フシデ",
+
+    "regularForm": "../assets/artworkGen5/543Venipede.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Venipede.gif",
+    "shinyAnimation": "../assets/animationGen5/Venipede_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Venipede.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Venipede_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Venipede",
+      "Whirlipede",
+      "Scolipede"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 544,
+    "idRegional": null,
+
+    "nameEnglish": "Whirlipede",
+    "nameFrench": "Scobolide",
+    "nameJapanese": "ホイーガ",
+
+    "regularForm": "../assets/artworkGen5/544Whirlipede.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Whirlipede.gif",
+    "shinyAnimation": "../assets/animationGen5/Whirlipede_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Whirlipede.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Whirlipede_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Venipede",
+      "Whirlipede",
+      "Scolipede"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 545,
+    "idRegional": null,
+
+    "nameEnglish": "Scolipede",
+    "nameFrench": "Brutapode",
+    "nameJapanese": "ペンドラー",
+
+    "regularForm": "../assets/artworkGen5/545Scolipede.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Scolipede.gif",
+    "shinyAnimation": "../assets/animationGen5/Scolipede_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Scolipede.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Scolipede_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Venipede",
+      "Whirlipede",
+      "Scolipede"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 546,
+    "idRegional": null,
+
+    "nameEnglish": "Cottonee",
+    "nameFrench": "Doudouvet",
+    "nameJapanese": "モンメン",
+
+    "regularForm": "../assets/artworkGen5/546Cottonee.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Cottonee.gif",
+    "shinyAnimation": "../assets/animationGen5/Cottonee_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Cottonee.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Cottonee_Shiny.gif",
+
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Cottonee",
+      "Whimsicott"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 547,
+    "idRegional": null,
+
+    "nameEnglish": "Whimsicott",
+    "nameFrench": "Farfaduvet",
+    "nameJapanese": "エルフーン",
+
+    "regularForm": "../assets/artworkGen5/547Whimsicott.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Whimsicott.gif",
+    "shinyAnimation": "../assets/animationGen5/Whimsicott_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Whimsicott.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Whimsicott_Shiny.gif",
+
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Cottonee",
+      "Whimsicott"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 548,
+    "idRegional": null,
+
+    "nameEnglish": "Petilil",
+    "nameFrench": "Chlorobule",
+    "nameJapanese": "チュリネ",
+
+    "regularForm": "../assets/artworkGen5/548Petilil.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Petilil.gif",
+    "shinyAnimation": "../assets/animationGen5/Petilil_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Petilil.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Petilil_Shiny.gif",
+
+    "types": [
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Petilil",
+      "Lilligant"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 549,
+    "idRegional": null,
+
+    "nameEnglish": "Lilligant",
+    "nameFrench": "Fragilady",
+    "nameJapanese": "ドレディア",
+
+    "regularForm": "../assets/artworkGen5/549Lilligant.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Lilligant.gif",
+    "shinyAnimation": "../assets/animationGen5/Lilligant_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Lilligant.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Lilligant_Shiny.gif",
+
+    "types": [
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Petilil",
+      "Lilligant"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 550,
+    "idRegional": null,
+
+    "nameEnglish": "Basculin",
+    "nameFrench": "Bargantua",
+    "nameJapanese": "バスラオ",
+
+    "regularForm": "../assets/artworkGen5/550Basculin-Red.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Basculin.gif",
+    "shinyAnimation": "../assets/animationGen5/Basculin_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Basculin.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Basculin_Shiny.gif",
+
+    "types": [
+      "Water"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 551,
+    "idRegional": null,
+
+    "nameEnglish": "Sandile",
+    "nameFrench": "Mascaïman",
+    "nameJapanese": "メグロコ",
+
+    "regularForm": "../assets/artworkGen5/551Sandile.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Sandile.gif",
+    "shinyAnimation": "../assets/animationGen5/Sandile_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Sandile.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Sandile_Shiny.gif",
+
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Sandile",
+      "Krokorok",
+      "Krookodile"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 552,
+    "idRegional": null,
+
+    "nameEnglish": "Krokorok",
+    "nameFrench": "Escroco",
+    "nameJapanese": "ワルビル",
+
+    "regularForm": "../assets/artworkGen5/552Krokorok.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Krokorok.gif",
+    "shinyAnimation": "../assets/animationGen5/Krokorok_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Krokorok.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Krokorok_Shiny.gif",
+
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Sandile",
+      "Krokorok",
+      "Krookodile"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 553,
+    "idRegional": null,
+
+    "nameEnglish": "Krookodile",
+    "nameFrench": "Crocorible",
+    "nameJapanese": "ワルビアル",
+
+    "regularForm": "../assets/artworkGen5/553Krookodile.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Krookodile.gif",
+    "shinyAnimation": "../assets/animationGen5/Krookodile_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Krookodile.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Krookodile_Shiny.gif",
+
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Sandile",
+      "Krokorok",
+      "Krookodile"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 554,
+    "idRegional": null,
+
+    "nameEnglish": "Darumaka",
+    "nameFrench": "Darumarond",
+    "nameJapanese": "ダルマッカ",
+
+    "regularForm": "../assets/artworkGen5/554Darumaka.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Darumaka.gif",
+    "shinyAnimation": "../assets/animationGen5/Darumaka_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Darumaka.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Darumaka_Shiny.gif",
+
+    "types": [
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Darumaka",
+      "Darmanitan"
+    ],
+    "forms": [
+      "Darumaka",
+      "Galarian Darumaka"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 554,
+    "idRegional": null,
+
+    "nameEnglish": "Galarian Darumaka",
+    "nameFrench": "Darumarond de Galar",
+    "nameJapanese": "ガラルのダルマッカ",
+
+    "regularForm": "../assets/artworkGen5/554Darumaka-Galar.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Darumaka_Galar.gif",
+    "shinyAnimation": "../assets/animationGen5/Darumaka_Galar_Shiny.gif",
+    "regularAnimationBack": null,
+    "shinyAnimationBack": null,
+
+    "types": [
+      "Ice"
+    ],
+    "region": "Galar",
+    "evolutionTree": [
+      "Galarian Darumaka",
+      "Galarian Darmanitan"
+    ],
+    "forms": [
+      "Darumaka",
+      "Galarian Darumaka"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 555,
+    "idRegional": null,
+
+    "nameEnglish": "Darmanitan",
+    "nameFrench": "Darumacho",
+    "nameJapanese": "ヒヒダルマ",
+
+    "regularForm": "../assets/artworkGen5/555Darmanitan.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Darmanitan.gif",
+    "shinyAnimation": "../assets/animationGen5/Darmanitan_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Darmanitan.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Darmanitan_Shiny.gif",
+
+    "types": [
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Darumaka",
+      "Darmanitan"
+    ],
+    "forms": [
+      "Darmanitan",
+      "Galarian Darmanitan"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 555,
+    "idRegional": null,
+
+    "nameEnglish": "Galarian Darmanitan",
+    "nameFrench": "Darumacho de Galar",
+    "nameJapanese": "ガラルのヒヒダルマ",
+
+    "regularForm": "../assets/artworkGen5/555Darmanitan-Galar.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Darmanitan_Galar.gif",
+    "shinyAnimation": "../assets/animationGen5/Darmanitan_Galar_Shiny.gif",
+    "regularAnimationBack": null,
+    "shinyAnimationBack": null,
+
+    "types": [
+      "Ice"
+    ],
+    "region": "Galar",
+    "evolutionTree": [
+      "Galarian Darumaka",
+      "Galarian Darmanitan"
+    ],
+    "forms": [
+      "Darmanitan",
+      "Galarian Darmanitan"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 556,
+    "idRegional": null,
+
+    "nameEnglish": "Maractus",
+    "nameFrench": "Maracachi",
+    "nameJapanese": "マラカッチ",
+
+    "regularForm": "../assets/artworkGen5/556Maractus.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Maractus.gif",
+    "shinyAnimation": "../assets/animationGen5/Maractus_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Maractus.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Maractus_Shiny.gif",
+
+    "types": [
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 557,
+    "idRegional": null,
+
+    "nameEnglish": "Dwebble",
+    "nameFrench": "Crabicoque",
+    "nameJapanese": "イシズマイ",
+
+    "regularForm": "../assets/artworkGen5/557Dwebble.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Dwebble.gif",
+    "shinyAnimation": "../assets/animationGen5/Dwebble_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Dwebble.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Dwebble_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Dwebble",
+      "Crustle"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 558,
+    "idRegional": null,
+
+    "nameEnglish": "Crustle",
+    "nameFrench": "Crabaraque",
+    "nameJapanese": "イワパレス",
+
+    "regularForm": "../assets/artworkGen5/558Crustle.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Crustle.gif",
+    "shinyAnimation": "../assets/animationGen5/Crustle_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Crustle.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Crustle_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Dwebble",
+      "Crustle"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 559,
+    "idRegional": null,
+
+    "nameEnglish": "Scraggy",
+    "nameFrench": "Baggiguane",
+    "nameJapanese": "ズルッグ",
+
+    "regularForm": "../assets/artworkGen5/559Scraggy.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Scraggy.gif",
+    "shinyAnimation": "../assets/animationGen5/Scraggy_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Scraggy.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Scraggy_Shiny.gif",
+
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Scraggy",
+      "Scrafty"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 560,
+    "idRegional": null,
+
+    "nameEnglish": "Scrafty",
+    "nameFrench": "Baggaïd",
+    "nameJapanese": "ズルズキン",
+
+    "regularForm": "../assets/artworkGen5/560Scrafty.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Scrafty.gif",
+    "shinyAnimation": "../assets/animationGen5/Scrafty_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Scrafty.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Scrafty_Shiny.gif",
+
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Scraggy",
+      "Scrafty"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 561,
+    "idRegional": null,
+
+    "nameEnglish": "Sigilyph",
+    "nameFrench": "Cryptéro",
+    "nameJapanese": "シンボラー",
+
+    "regularForm": "../assets/artworkGen5/561Sigilyph.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Sigilyph.gif",
+    "shinyAnimation": "../assets/animationGen5/Sigilyph_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Sigilyph.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Sigilyph_Shiny.gif",
+
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
     "idNational": 562,
     "idRegional": null,
 
@@ -88,6 +2169,2544 @@
       "Yamask",
       "Cofagrigus"
     ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 564,
+    "idRegional": null,
+
+    "nameEnglish": "Tirtouga",
+    "nameFrench": "Carapagos",
+    "nameJapanese": "プロトーガ",
+
+    "regularForm": "../assets/artworkGen5/564Tirtouga.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Tirtouga.gif",
+    "shinyAnimation": "../assets/animationGen5/Tirtouga_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Tirtouga.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Tirtouga_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Tirtouga",
+      "Carracosta"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 565,
+    "idRegional": null,
+
+    "nameEnglish": "Carracosta",
+    "nameFrench": "Mégapagos",
+    "nameJapanese": "アバゴーラ",
+
+    "regularForm": "../assets/artworkGen5/565Carracosta.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Carracosta.gif",
+    "shinyAnimation": "../assets/animationGen5/Carracosta_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Carracosta.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Carracosta_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Tirtouga",
+      "Carracosta"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 566,
+    "idRegional": null,
+
+    "nameEnglish": "Archen",
+    "nameFrench": "Arkéapti",
+    "nameJapanese": "アーケン",
+
+    "regularForm": "../assets/artworkGen5/566Archen.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Archen.gif",
+    "shinyAnimation": "../assets/animationGen5/Archen_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Archen.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Archen_Shiny.gif",
+
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Archen",
+      "Archeops"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 567,
+    "idRegional": null,
+
+    "nameEnglish": "Archeops",
+    "nameFrench": "Aéroptéryx",
+    "nameJapanese": "アーケオス",
+
+    "regularForm": "../assets/artworkGen5/567Archeops.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Archeops.gif",
+    "shinyAnimation": "../assets/animationGen5/Archeops_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Archeops.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Archeops_Shiny.gif",
+
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Archen",
+      "Archeops"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 568,
+    "idRegional": null,
+
+    "nameEnglish": "Trubbish",
+    "nameFrench": "Miamiasme",
+    "nameJapanese": "ヤブクロン",
+
+    "regularForm": "../assets/artworkGen5/568Trubbish.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Trubbish.gif",
+    "shinyAnimation": "../assets/animationGen5/Trubbish_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Trubbish.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Trubbish_Shiny.gif",
+
+    "types": [
+      "Poison"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Trubbish",
+      "Garbodor"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 569,
+    "idRegional": null,
+
+    "nameEnglish": "Garbodor",
+    "nameFrench": "Miasmax",
+    "nameJapanese": "ダストダス",
+
+    "regularForm": "../assets/artworkGen5/569Garbodor.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Garbodor.gif",
+    "shinyAnimation": "../assets/animationGen5/Garbodor_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Garbodor.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Garbodor_Shiny.gif",
+
+    "types": [
+      "Poison"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Trubbish",
+      "Garbodor"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 570,
+    "idRegional": null,
+
+    "nameEnglish": "Zorua",
+    "nameFrench": "Zorua",
+    "nameJapanese": "ゾロア",
+
+    "regularForm": "../assets/artworkGen5/570Zorua.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Zorua.gif",
+    "shinyAnimation": "../assets/animationGen5/Zorua_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Zorua.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Zorua_Shiny.gif",
+
+    "types": [
+      "Dark"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Zorua",
+      "Zoroark"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 571,
+    "idRegional": null,
+
+    "nameEnglish": "Zoroark",
+    "nameFrench": "Zoroark",
+    "nameJapanese": "ゾロアーク",
+
+    "regularForm": "../assets/artworkGen5/571Zoroark.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Zoroark.gif",
+    "shinyAnimation": "../assets/animationGen5/Zoroark_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Zoroark.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Zoroark_Shiny.gif",
+
+    "types": [
+      "Dark"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Zorua",
+      "Zoroark"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 572,
+    "idRegional": null,
+
+    "nameEnglish": "Minccino",
+    "nameFrench": "Chinchidou",
+    "nameJapanese": "チラーミィ",
+
+    "regularForm": "../assets/artworkGen5/572Minccino.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Minccino.gif",
+    "shinyAnimation": "../assets/animationGen5/Minccino_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Minccino.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Minccino_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Minccino",
+      "Cinccino"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 573,
+    "idRegional": null,
+
+    "nameEnglish": "Cinccino",
+    "nameFrench": "Pashmilla",
+    "nameJapanese": "チラチーノ",
+
+    "regularForm": "../assets/artworkGen5/573Cinccino.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Cinccino.gif",
+    "shinyAnimation": "../assets/animationGen5/Cinccino_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Cinccino.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Cinccino_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Minccino",
+      "Cinccino"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 574,
+    "idRegional": null,
+
+    "nameEnglish": "Gothita",
+    "nameFrench": "Scrutella",
+    "nameJapanese": "ゴチム",
+
+    "regularForm": "../assets/artworkGen5/574Gothita.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Gothita.gif",
+    "shinyAnimation": "../assets/animationGen5/Gothita_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Gothita.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Gothita_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Gothita",
+      "Gothorita",
+      "Gothitelle"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 575,
+    "idRegional": null,
+
+    "nameEnglish": "Gothorita",
+    "nameFrench": "Mesmérella",
+    "nameJapanese": "ゴチミル",
+
+    "regularForm": "../assets/artworkGen5/575Gothorita.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Gothorita.gif",
+    "shinyAnimation": "../assets/animationGen5/Gothorita_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Gothorita.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Gothorita_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Gothita",
+      "Gothorita",
+      "Gothitelle"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 576,
+    "idRegional": null,
+
+    "nameEnglish": "Gothitelle",
+    "nameFrench": "Sidérella",
+    "nameJapanese": "ゴチルゼル",
+
+    "regularForm": "../assets/artworkGen5/576Gothitelle.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Gothitelle.gif",
+    "shinyAnimation": "../assets/animationGen5/Gothitelle_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Gothitelle.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Gothitelle_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Gothita",
+      "Gothorita",
+      "Gothitelle"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 577,
+    "idRegional": null,
+
+    "nameEnglish": "Solosis",
+    "nameFrench": "Nucléos",
+    "nameJapanese": "ユニラン",
+
+    "regularForm": "../assets/artworkGen5/577Solosis.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Solosis.gif",
+    "shinyAnimation": "../assets/animationGen5/Solosis_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Solosis.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Solosis_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Solosis",
+      "Duosion",
+      "Reuniclus"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 578,
+    "idRegional": null,
+
+    "nameEnglish": "Duosion",
+    "nameFrench": "Méios",
+    "nameJapanese": "ダブラン",
+
+    "regularForm": "../assets/artworkGen5/578Duosion.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Duosion.gif",
+    "shinyAnimation": "../assets/animationGen5/Duosion_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Duosion.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Duosion_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Solosis",
+      "Duosion",
+      "Reuniclus"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 579,
+    "idRegional": null,
+
+    "nameEnglish": "Reuniclus",
+    "nameFrench": "Symbios",
+    "nameJapanese": "ランクルス",
+
+    "regularForm": "../assets/artworkGen5/579Reuniclus.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Reuniclus.gif",
+    "shinyAnimation": "../assets/animationGen5/Reuniclus_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Reuniclus.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Reuniclus_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Solosis",
+      "Duosion",
+      "Reuniclus"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 580,
+    "idRegional": null,
+
+    "nameEnglish": "Ducklett",
+    "nameFrench": "Couaneton",
+    "nameJapanese": "コアルヒー",
+
+    "regularForm": "../assets/artworkGen5/580Ducklett.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Ducklett.gif",
+    "shinyAnimation": "../assets/animationGen5/Ducklett_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Ducklett.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Ducklett_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Ducklett",
+      "Swanna"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 581,
+    "idRegional": null,
+
+    "nameEnglish": "Swanna",
+    "nameFrench": "Lakmécygne",
+    "nameJapanese": "スワンナ",
+
+    "regularForm": "../assets/artworkGen5/581Swanna.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Swanna.gif",
+    "shinyAnimation": "../assets/animationGen5/Swanna_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Swanna.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Swanna_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Ducklett",
+      "Swanna"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 582,
+    "idRegional": null,
+
+    "nameEnglish": "Vanillite",
+    "nameFrench": "Sorbébé",
+    "nameJapanese": "バニプッチ",
+
+    "regularForm": "../assets/artworkGen5/582Vanillite.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Vanillite.gif",
+    "shinyAnimation": "../assets/animationGen5/Vanillite_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Vanillite.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Vanillite_Shiny.gif",
+
+    "types": [
+      "Ice"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Vanillite",
+      "Vanillish",
+      "Vanilluxe"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 583,
+    "idRegional": null,
+
+    "nameEnglish": "Vanillish",
+    "nameFrench": "Sorboul",
+    "nameJapanese": "バニリッチ",
+
+    "regularForm": "../assets/artworkGen5/583Vanillish.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Vanillish.gif",
+    "shinyAnimation": "../assets/animationGen5/Vanillish_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Vanillish.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Vanillish_Shiny.gif",
+
+    "types": [
+      "Ice"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Vanillite",
+      "Vanillish",
+      "Vanilluxe"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 584,
+    "idRegional": null,
+
+    "nameEnglish": "Vanilluxe",
+    "nameFrench": "Sorbouboul",
+    "nameJapanese": "バイバニラ",
+
+    "regularForm": "../assets/artworkGen5/584Vanilluxe.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Vanilluxe.gif",
+    "shinyAnimation": "../assets/animationGen5/Vanilluxe_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Vanilluxe.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Vanilluxe_Shiny.gif",
+
+    "types": [
+      "Ice"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Vanillite",
+      "Vanillish",
+      "Vanilluxe"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 585,
+    "idRegional": null,
+
+    "nameEnglish": "Deerling",
+    "nameFrench": "Vivaldaim",
+    "nameJapanese": "シキジカ",
+
+    "regularForm": "../assets/artworkGen5/585Deerling-Summer.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Deerling_Summer.gif",
+    "shinyAnimation": "../assets/animationGen5/Deerling_Summer_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Deerling_Summer.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Deerling_Summer_Shiny.gif",
+
+    "types": [
+      "Normal",
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Deerling",
+      "Sawsbuck"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 586,
+    "idRegional": null,
+
+    "nameEnglish": "Sawsbuck",
+    "nameFrench": "Haydaim",
+    "nameJapanese": "メブキジカ",
+
+    "regularForm": "../assets/artworkGen5/586Sawsbuck-Summer.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Sawsbuck_Summer.gif",
+    "shinyAnimation": "../assets/animationGen5/Sawsbuck_Summer_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Sawsbuck_Summer.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Sawsbuck_Summer_Shiny.gif",
+
+    "types": [
+      "Normal",
+      "Grass"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Deerling",
+      "Sawsbuck"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 587,
+    "idRegional": null,
+
+    "nameEnglish": "Emolga",
+    "nameFrench": "Emolga",
+    "nameJapanese": "エモンガ",
+
+    "regularForm": "../assets/artworkGen5/587Emolga.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Emolga.gif",
+    "shinyAnimation": "../assets/animationGen5/Emolga_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Emolga.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Emolga_Shiny.gif",
+
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 588,
+    "idRegional": null,
+
+    "nameEnglish": "Karrablast",
+    "nameFrench": "Carabing",
+    "nameJapanese": "カブルモ",
+
+    "regularForm": "../assets/artworkGen5/588Karrablast.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Karrablast.gif",
+    "shinyAnimation": "../assets/animationGen5/Karrablast_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Karrablast.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Karrablast_Shiny.gif",
+
+    "types": [
+      "Bug"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Karrablast",
+      "Escavalier"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 589,
+    "idRegional": null,
+
+    "nameEnglish": "Escavalier",
+    "nameFrench": "Lançargot",
+    "nameJapanese": "シュバルゴ",
+
+    "regularForm": "../assets/artworkGen5/589Escavalier.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Escavalier.gif",
+    "shinyAnimation": "../assets/animationGen5/Escavalier_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Escavalier.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Escavalier_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Karrablast",
+      "Escavalier"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 590,
+    "idRegional": null,
+
+    "nameEnglish": "Foongus",
+    "nameFrench": "Trompignon",
+    "nameJapanese": "タマゲタケ",
+
+    "regularForm": "../assets/artworkGen5/590Foongus.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Foongus.gif",
+    "shinyAnimation": "../assets/animationGen5/Foongus_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Foongus.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Foongus_Shiny.gif",
+
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Foongus",
+      "Amoonguss"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 591,
+    "idRegional": null,
+
+    "nameEnglish": "Amoonguss",
+    "nameFrench": "Gaulet",
+    "nameJapanese": "モロバレル",
+
+    "regularForm": "../assets/artworkGen5/591Amoonguss.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Amoonguss.gif",
+    "shinyAnimation": "../assets/animationGen5/Amoonguss_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Amoonguss.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Amoonguss_Shiny.gif",
+
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Foongus",
+      "Amoonguss"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 592,
+    "idRegional": null,
+
+    "nameEnglish": "Frillish",
+    "nameFrench": "Viskuse",
+    "nameJapanese": "プルリル",
+
+    "regularForm": "../assets/artworkGen5/592Frillish-Male.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Frillish.gif",
+    "shinyAnimation": "../assets/animationGen5/Frillish_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Frillish.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Frillish_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Frillish",
+      "Jellicent"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 593,
+    "idRegional": null,
+
+    "nameEnglish": "Jellicent",
+    "nameFrench": "Moyade",
+    "nameJapanese": "ブルンゲル",
+
+    "regularForm": "../assets/artworkGen5/593Jellicent-Male.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Jellicent.gif",
+    "shinyAnimation": "../assets/animationGen5/Jellicent_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Jellicent.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Jellicent_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Frillish",
+      "Jellicent"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 594,
+    "idRegional": null,
+
+    "nameEnglish": "Alomomola",
+    "nameFrench": "Mamanbo",
+    "nameJapanese": "ママンボウ",
+
+    "regularForm": "../assets/artworkGen5/594Alomomola.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Alomomola.gif",
+    "shinyAnimation": "../assets/animationGen5/Alomomola_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Alomomola.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Alomomola_Shiny.gif",
+
+    "types": [
+      "Water"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 595,
+    "idRegional": null,
+
+    "nameEnglish": "Joltik",
+    "nameFrench": "Statitik",
+    "nameJapanese": "バチュル",
+
+    "regularForm": "../assets/artworkGen5/595Joltik.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Joltik.gif",
+    "shinyAnimation": "../assets/animationGen5/Joltik_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Joltik.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Joltik_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Joltik",
+      "Galvantula"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 596,
+    "idRegional": null,
+
+    "nameEnglish": "Galvantula",
+    "nameFrench": "Mygavolt",
+    "nameJapanese": "デンチュラ",
+
+    "regularForm": "../assets/artworkGen5/596Galvantula.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Galvantula.gif",
+    "shinyAnimation": "../assets/animationGen5/Galvantula_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Galvantula.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Galvantula_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Joltik",
+      "Galvantula"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 597,
+    "idRegional": null,
+
+    "nameEnglish": "Ferroseed",
+    "nameFrench": "Grindur",
+    "nameJapanese": "テッシード",
+
+    "regularForm": "../assets/artworkGen5/597Ferroseed.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Ferroseed.gif",
+    "shinyAnimation": "../assets/animationGen5/Ferroseed_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Ferroseed.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Ferroseed_Shiny.gif",
+
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Ferroseed",
+      "Ferrothorn"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 598,
+    "idRegional": null,
+
+    "nameEnglish": "Ferrothorn",
+    "nameFrench": "Noacier",
+    "nameJapanese": "ナットレイ",
+
+    "regularForm": "../assets/artworkGen5/598Ferrothorn.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Ferrothorn.gif",
+    "shinyAnimation": "../assets/animationGen5/Ferrothorn_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Ferrothorn.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Ferrothorn_Shiny.gif",
+
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Ferroseed",
+      "Ferrothorn"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 599,
+    "idRegional": null,
+
+    "nameEnglish": "Klink",
+    "nameFrench": "Tic",
+    "nameJapanese": "ギアル",
+
+    "regularForm": "../assets/artworkGen5/599Klink.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Klink.gif",
+    "shinyAnimation": "../assets/animationGen5/Klink_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Klink.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Klink_Shiny.gif",
+
+    "types": [
+      "Steel"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Klink",
+      "Klang",
+      "Klinklang"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 600,
+    "idRegional": null,
+
+    "nameEnglish": "Klang",
+    "nameFrench": "Clic",
+    "nameJapanese": "ギギアル",
+
+    "regularForm": "../assets/artworkGen5/600Klang.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Klang.gif",
+    "shinyAnimation": "../assets/animationGen5/Klang_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Klang.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Klang_Shiny.gif",
+
+    "types": [
+      "Steel"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Klink",
+      "Klang",
+      "Klinklang"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 601,
+    "idRegional": null,
+
+    "nameEnglish": "Klinklang",
+    "nameFrench": "Cliticlic",
+    "nameJapanese": "ギギギアル",
+
+    "regularForm": "../assets/artworkGen5/601Klinklang.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Klinklang.gif",
+    "shinyAnimation": "../assets/animationGen5/Klinklang_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Klinklang.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Klinklang_Shiny.gif",
+
+    "types": [
+      "Steel"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Klink",
+      "Klang",
+      "Klinklang"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 602,
+    "idRegional": null,
+
+    "nameEnglish": "Tynamo",
+    "nameFrench": "Anchwatt",
+    "nameJapanese": "シビシラス",
+
+    "regularForm": "../assets/artworkGen5/602Tynamo.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Tynamo.gif",
+    "shinyAnimation": "../assets/animationGen5/Tynamo_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Tynamo.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Tynamo_Shiny.gif",
+
+    "types": [
+      "Electric"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Tynamo",
+      "Eelektrik",
+      "Eelektross"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 603,
+    "idRegional": null,
+
+    "nameEnglish": "Eelektrik",
+    "nameFrench": "Lampéroie",
+    "nameJapanese": "シビビール",
+
+    "regularForm": "../assets/artworkGen5/603Eelektrik.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Eelektrik.gif",
+    "shinyAnimation": "../assets/animationGen5/Eelektrik_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Eelektrik.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Eelektrik_Shiny.gif",
+
+    "types": [
+      "Electric"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Tynamo",
+      "Eelektrik",
+      "Eelektross"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 604,
+    "idRegional": null,
+
+    "nameEnglish": "Eelektross",
+    "nameFrench": "Ohmassacre",
+    "nameJapanese": "シビルドン",
+
+    "regularForm": "../assets/artworkGen5/604Eelektross.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Eelektross.gif",
+    "shinyAnimation": "../assets/animationGen5/Eelektross_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Eelektross.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Eelektross_Shiny.gif",
+
+    "types": [
+      "Electric"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Tynamo",
+      "Eelektrik",
+      "Eelektross"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 605,
+    "idRegional": null,
+
+    "nameEnglish": "Elgyem",
+    "nameFrench": "Lewsor",
+    "nameJapanese": "リグレー",
+
+    "regularForm": "../assets/artworkGen5/605Elgyem.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Elgyem.gif",
+    "shinyAnimation": "../assets/animationGen5/Elgyem_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Elgyem.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Elgyem_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Elgyem",
+      "Beheeyem"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 606,
+    "idRegional": null,
+
+    "nameEnglish": "Beheeyem",
+    "nameFrench": "Neitram",
+    "nameJapanese": "オーベム",
+
+    "regularForm": "../assets/artworkGen5/606Beheeyem.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Beheeyem.gif",
+    "shinyAnimation": "../assets/animationGen5/Beheeyem_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Beheeyem.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Beheeyem_Shiny.gif",
+
+    "types": [
+      "Psychic"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Elgyem",
+      "Beheeyem"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 607,
+    "idRegional": null,
+
+    "nameEnglish": "Litwick",
+    "nameFrench": "Funécire",
+    "nameJapanese": "ヒトモシ",
+
+    "regularForm": "../assets/artworkGen5/607Litwick.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Litwick.gif",
+    "shinyAnimation": "../assets/animationGen5/Litwick_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Litwick.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Litwick_Shiny.gif",
+
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Litwick",
+      "Lampent",
+      "Chandelure"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 608,
+    "idRegional": null,
+
+    "nameEnglish": "Lampent",
+    "nameFrench": "Mélancolux",
+    "nameJapanese": "ランプラー",
+
+    "regularForm": "../assets/artworkGen5/608Lampent.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Lampent.gif",
+    "shinyAnimation": "../assets/animationGen5/Lampent_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Lampent.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Lampent_Shiny.gif",
+
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Litwick",
+      "Lampent",
+      "Chandelure"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 609,
+    "idRegional": null,
+
+    "nameEnglish": "Chandelure",
+    "nameFrench": "Lugulabre",
+    "nameJapanese": "シャンデラ",
+
+    "regularForm": "../assets/artworkGen5/609Chandelure.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Chandelure.gif",
+    "shinyAnimation": "../assets/animationGen5/Chandelure_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Chandelure.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Chandelure_Shiny.gif",
+
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Litwick",
+      "Lampent",
+      "Chandelure"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 610,
+    "idRegional": null,
+
+    "nameEnglish": "Axew",
+    "nameFrench": "Coupenotte",
+    "nameJapanese": "キバゴ",
+
+    "regularForm": "../assets/artworkGen5/610Axew.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Axew.gif",
+    "shinyAnimation": "../assets/animationGen5/Axew_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Axew.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Axew_Shiny.gif",
+
+    "types": [
+      "Dragon"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Axew",
+      "Fraxure",
+      "Haxorus"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 611,
+    "idRegional": null,
+
+    "nameEnglish": "Fraxure",
+    "nameFrench": "Incisache",
+    "nameJapanese": "オノンド",
+
+    "regularForm": "../assets/artworkGen5/611Fraxure.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Fraxure.gif",
+    "shinyAnimation": "../assets/animationGen5/Fraxure_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Fraxure.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Fraxure_Shiny.gif",
+
+    "types": [
+      "Dragon"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Axew",
+      "Fraxure",
+      "Haxorus"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 612,
+    "idRegional": null,
+
+    "nameEnglish": "Haxorus",
+    "nameFrench": "Tranchodon",
+    "nameJapanese": "オノノクス",
+
+    "regularForm": "../assets/artworkGen5/612Haxorus.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Haxorus.gif",
+    "shinyAnimation": "../assets/animationGen5/Haxorus_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Haxorus.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Haxorus_Shiny.gif",
+
+    "types": [
+      "Dragon"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Axew",
+      "Fraxure",
+      "Haxorus"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 613,
+    "idRegional": null,
+
+    "nameEnglish": "Cubchoo",
+    "nameFrench": "Polarhume",
+    "nameJapanese": "クマシュン",
+
+    "regularForm": "../assets/artworkGen5/613Cubchoo.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Cubchoo.gif",
+    "shinyAnimation": "../assets/animationGen5/Cubchoo_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Cubchoo.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Cubchoo_Shiny.gif",
+
+    "types": [
+      "Ice"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Cubchoo",
+      "Beartic"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 614,
+    "idRegional": null,
+
+    "nameEnglish": "Beartic",
+    "nameFrench": "Polagriffe",
+    "nameJapanese": "ツンベアー",
+
+    "regularForm": "../assets/artworkGen5/614Beartic.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Beartic.gif",
+    "shinyAnimation": "../assets/animationGen5/Beartic_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Beartic.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Beartic_Shiny.gif",
+
+    "types": [
+      "Ice"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Cubchoo",
+      "Beartic"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 615,
+    "idRegional": null,
+
+    "nameEnglish": "Cryogonal",
+    "nameFrench": "Hexagel",
+    "nameJapanese": "フリージオ",
+
+    "regularForm": "../assets/artworkGen5/615Cryogonal.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Cryogonal.gif",
+    "shinyAnimation": "../assets/animationGen5/Cryogonal_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Cryogonal.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Cryogonal_Shiny.gif",
+
+    "types": [
+      "Ice"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 616,
+    "idRegional": null,
+
+    "nameEnglish": "Shelmet",
+    "nameFrench": "Escargaume",
+    "nameJapanese": "チョボマキ",
+
+    "regularForm": "../assets/artworkGen5/616Shelmet.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Shelmet.gif",
+    "shinyAnimation": "../assets/animationGen5/Shelmet_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Shelmet.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Shelmet_Shiny.gif",
+
+    "types": [
+      "Bug"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Shelmet",
+      "Accelgor"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 617,
+    "idRegional": null,
+
+    "nameEnglish": "Accelgor",
+    "nameFrench": "Limaspeed",
+    "nameJapanese": "アギルダー",
+
+    "regularForm": "../assets/artworkGen5/617Accelgor.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Accelgor.gif",
+    "shinyAnimation": "../assets/animationGen5/Accelgor_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Accelgor.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Accelgor_Shiny.gif",
+
+    "types": [
+      "Bug"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Shelmet",
+      "Accelgor"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 618,
+    "idRegional": null,
+
+    "nameEnglish": "Stunfisk",
+    "nameFrench": "Limonde",
+    "nameJapanese": "マッギョ",
+
+    "regularForm": "../assets/artworkGen5/618Stunfisk.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Stunfisk.gif",
+    "shinyAnimation": "../assets/animationGen5/Stunfisk_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Stunfisk.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Stunfisk_Shiny.gif",
+
+    "types": [
+      "Ground",
+      "Electric"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [
+      "Stunfisk",
+      "Galarian Stunfisk"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 618,
+    "idRegional": null,
+
+    "nameEnglish": "Galarian Stunfisk",
+    "nameFrench": "Limonde de Galar",
+    "nameJapanese": "ガラルのマッギョ",
+
+    "regularForm": "../assets/artworkGen5/618Stunfisk-Galar.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Stunfisk_Galar.gif",
+    "shinyAnimation": "../assets/animationGen5/Stunfisk_Galar_Shiny.gif",
+    "regularAnimationBack": null,
+    "shinyAnimationBack": null,
+
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "region": "Galar",
+    "evolutionTree": [],
+    "forms": [
+      "Stunfisk",
+      "Galarian Stunfisk"
+    ],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 619,
+    "idRegional": null,
+
+    "nameEnglish": "Mienfoo",
+    "nameFrench": "Kungfouine",
+    "nameJapanese": "コジョフー",
+
+    "regularForm": "../assets/artworkGen5/619Mienfoo.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Mienfoo.gif",
+    "shinyAnimation": "../assets/animationGen5/Mienfoo_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Mienfoo.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Mienfoo_Shiny.gif",
+
+    "types": [
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Mienfoo",
+      "Mienshao"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 620,
+    "idRegional": null,
+
+    "nameEnglish": "Mienshao",
+    "nameFrench": "Shaofouine",
+    "nameJapanese": "コジョンド",
+
+    "regularForm": "../assets/artworkGen5/620Mienshao.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Mienshao.gif",
+    "shinyAnimation": "../assets/animationGen5/Mienshao_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Mienshao.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Mienshao_Shiny.gif",
+
+    "types": [
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Mienfoo",
+      "Mienshao"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 621,
+    "idRegional": null,
+
+    "nameEnglish": "Druddigon",
+    "nameFrench": "Drakkarmin",
+    "nameJapanese": "クリムガン",
+
+    "regularForm": "../assets/artworkGen5/621Druddigon.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Druddigon.gif",
+    "shinyAnimation": "../assets/animationGen5/Druddigon_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Druddigon.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Druddigon_Shiny.gif",
+
+    "types": [
+      "Dragon"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 622,
+    "idRegional": null,
+
+    "nameEnglish": "Golett",
+    "nameFrench": "Gringolem",
+    "nameJapanese": "ゴビット",
+
+    "regularForm": "../assets/artworkGen5/622Golett.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Golett.gif",
+    "shinyAnimation": "../assets/animationGen5/Golett_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Golett.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Golett_Shiny.gif",
+
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Golett",
+      "Golurk"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 623,
+    "idRegional": null,
+
+    "nameEnglish": "Golurk",
+    "nameFrench": "Golemastoc",
+    "nameJapanese": "ゴルーグ",
+
+    "regularForm": "../assets/artworkGen5/623Golurk.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Golurk.gif",
+    "shinyAnimation": "../assets/animationGen5/Golurk_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Golurk.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Golurk_Shiny.gif",
+
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Golett",
+      "Golurk"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 624,
+    "idRegional": null,
+
+    "nameEnglish": "Pawniard",
+    "nameFrench": "Scalpion",
+    "nameJapanese": "コマタナ",
+
+    "regularForm": "../assets/artworkGen5/624Pawniard.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Pawniard.gif",
+    "shinyAnimation": "../assets/animationGen5/Pawniard_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Pawniard.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Pawniard_Shiny.gif",
+
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Pawniard",
+      "Bisharp"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 625,
+    "idRegional": null,
+
+    "nameEnglish": "Bisharp",
+    "nameFrench": "Scalproie",
+    "nameJapanese": "キリキザン",
+
+    "regularForm": "../assets/artworkGen5/625Bisharp.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Bisharp.gif",
+    "shinyAnimation": "../assets/animationGen5/Bisharp_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Bisharp.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Bisharp_Shiny.gif",
+
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Pawniard",
+      "Bisharp"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 626,
+    "idRegional": null,
+
+    "nameEnglish": "Bouffalant",
+    "nameFrench": "Frison",
+    "nameJapanese": "バッフロン",
+
+    "regularForm": "../assets/artworkGen5/626Bouffalant.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Bouffalant.gif",
+    "shinyAnimation": "../assets/animationGen5/Bouffalant_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Bouffalant.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Bouffalant_Shiny.gif",
+
+    "types": [
+      "Normal"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 627,
+    "idRegional": null,
+
+    "nameEnglish": "Rufflet",
+    "nameFrench": "Furaiglon",
+    "nameJapanese": "ワシボン",
+
+    "regularForm": "../assets/artworkGen5/627Rufflet.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Rufflet.gif",
+    "shinyAnimation": "../assets/animationGen5/Rufflet_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Rufflet.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Rufflet_Shiny.gif",
+
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Rufflet",
+      "Braviary"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 628,
+    "idRegional": null,
+
+    "nameEnglish": "Braviary",
+    "nameFrench": "Gueriaigle",
+    "nameJapanese": "ウォーグル",
+
+    "regularForm": "../assets/artworkGen5/628Braviary.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Braviary.gif",
+    "shinyAnimation": "../assets/animationGen5/Braviary_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Braviary.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Braviary_Shiny.gif",
+
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Rufflet",
+      "Braviary"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 629,
+    "idRegional": null,
+
+    "nameEnglish": "Vullaby",
+    "nameFrench": "Vostourno",
+    "nameJapanese": "バルチャイ",
+
+    "regularForm": "../assets/artworkGen5/629Vullaby.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Vullaby.gif",
+    "shinyAnimation": "../assets/animationGen5/Vullaby_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Vullaby.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Vullaby_Shiny.gif",
+
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Vullaby",
+      "Mandibuzz"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 630,
+    "idRegional": null,
+
+    "nameEnglish": "Mandibuzz",
+    "nameFrench": "Vaututrice",
+    "nameJapanese": "バルジーナ",
+
+    "regularForm": "../assets/artworkGen5/630Mandibuzz.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Mandibuzz.gif",
+    "shinyAnimation": "../assets/animationGen5/Mandibuzz_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Mandibuzz.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Mandibuzz_Shiny.gif",
+
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Vullaby",
+      "Mandibuzz"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 631,
+    "idRegional": null,
+
+    "nameEnglish": "Heatmor",
+    "nameFrench": "Aflamanoir",
+    "nameJapanese": "クイタラン",
+
+    "regularForm": "../assets/artworkGen5/631Heatmor.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Heatmor.gif",
+    "shinyAnimation": "../assets/animationGen5/Heatmor_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Heatmor.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Heatmor_Shiny.gif",
+
+    "types": [
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 632,
+    "idRegional": null,
+
+    "nameEnglish": "Durant",
+    "nameFrench": "Fermite",
+    "nameJapanese": "アイアント",
+
+    "regularForm": "../assets/artworkGen5/632Durant.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Durant.gif",
+    "shinyAnimation": "../assets/animationGen5/Durant_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Durant.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Durant_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 633,
+    "idRegional": null,
+
+    "nameEnglish": "Deino",
+    "nameFrench": "Solochi",
+    "nameJapanese": "モノズ",
+
+    "regularForm": "../assets/artworkGen5/633Deino.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Deino.gif",
+    "shinyAnimation": "../assets/animationGen5/Deino_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Deino.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Deino_Shiny.gif",
+
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Deino",
+      "Zweilous",
+      "Hydreigon"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 634,
+    "idRegional": null,
+
+    "nameEnglish": "Zweilous",
+    "nameFrench": "Diamat",
+    "nameJapanese": "ジヘッド",
+
+    "regularForm": "../assets/artworkGen5/634Zweilous.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Zweilous.gif",
+    "shinyAnimation": "../assets/animationGen5/Zweilous_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Zweilous.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Zweilous_Shiny.gif",
+
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Deino",
+      "Zweilous",
+      "Hydreigon"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 635,
+    "idRegional": null,
+
+    "nameEnglish": "Hydreigon",
+    "nameFrench": "Trioxhydre",
+    "nameJapanese": "サザンドラ",
+
+    "regularForm": "../assets/artworkGen5/635Hydreigon.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Hydreigon.gif",
+    "shinyAnimation": "../assets/animationGen5/Hydreigon_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Hydreigon.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Hydreigon_Shiny.gif",
+
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Deino",
+      "Zweilous",
+      "Hydreigon"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 636,
+    "idRegional": null,
+
+    "nameEnglish": "Larvesta",
+    "nameFrench": "Trioxhydre",
+    "nameJapanese": "サザンドラ",
+
+    "regularForm": "../assets/artworkGen5/636Larvesta.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Larvesta.gif",
+    "shinyAnimation": "../assets/animationGen5/Larvesta_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Larvesta.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Larvesta_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Larvesta",
+      "Volcarona"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 637,
+    "idRegional": null,
+
+    "nameEnglish": "Volcarona",
+    "nameFrench": "Pyrax",
+    "nameJapanese": "ウルガモス",
+
+    "regularForm": "../assets/artworkGen5/637Volcarona.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Volcarona.gif",
+    "shinyAnimation": "../assets/animationGen5/Volcarona_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Volcarona.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Volcarona_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [
+      "Larvesta",
+      "Volcarona"
+    ],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 638,
+    "idRegional": null,
+
+    "nameEnglish": "Cobalion",
+    "nameFrench": "Cobaltium",
+    "nameJapanese": "コバルオン",
+
+    "regularForm": "../assets/artworkGen5/638Cobalion.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Cobalion.gif",
+    "shinyAnimation": "../assets/animationGen5/Cobalion_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Cobalion.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Cobalion_Shiny.gif",
+
+    "types": [
+      "Steel",
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 639,
+    "idRegional": null,
+
+    "nameEnglish": "Terrakion",
+    "nameFrench": "Terrakium",
+    "nameJapanese": "テラキオン",
+
+    "regularForm": "../assets/artworkGen5/639Terrakion.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Terrakion.gif",
+    "shinyAnimation": "../assets/animationGen5/Terrakion_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Terrakion.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Terrakion_Shiny.gif",
+
+    "types": [
+      "Rock",
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 640,
+    "idRegional": null,
+
+    "nameEnglish": "Virizion",
+    "nameFrench": "Viridium",
+    "nameJapanese": "ビリジオン",
+
+    "regularForm": "../assets/artworkGen5/640Virizion.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Virizion.gif",
+    "shinyAnimation": "../assets/animationGen5/Virizion_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Virizion.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Virizion_Shiny.gif",
+
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 641,
+    "idRegional": null,
+
+    "nameEnglish": "Tornadus",
+    "nameFrench": "Boréas",
+    "nameJapanese": "トルネロス",
+
+    "regularForm": "../assets/artworkGen5/641Tornadus.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Tornadus.gif",
+    "shinyAnimation": "../assets/animationGen5/Tornadus_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Tornadus.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Tornadus_Shiny.gif",
+
+    "types": [
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 642,
+    "idRegional": null,
+
+    "nameEnglish": "Thundurus",
+    "nameFrench": "Fulguris",
+    "nameJapanese": "ボルトロス",
+
+    "regularForm": "../assets/artworkGen5/642Thundurus.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Thundurus.gif",
+    "shinyAnimation": "../assets/animationGen5/Thundurus_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Thundurus.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Thundurus_Shiny.gif",
+
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 643,
+    "idRegional": null,
+
+    "nameEnglish": "Reshiram",
+    "nameFrench": "Reshiram",
+    "nameJapanese": "レシラム",
+
+    "regularForm": "../assets/artworkGen5/643Reshiram.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Reshiram.gif",
+    "shinyAnimation": "../assets/animationGen5/Reshiram_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Reshiram.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Reshiram_Shiny.gif",
+
+    "types": [
+      "Dragon",
+      "Fire"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 644,
+    "idRegional": null,
+
+    "nameEnglish": "Zekrom",
+    "nameFrench": "Zekrom",
+    "nameJapanese": "ゼクロム",
+
+    "regularForm": "../assets/artworkGen5/644Zekrom.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Zekrom.gif",
+    "shinyAnimation": "../assets/animationGen5/Zekrom_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Zekrom.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Zekrom_Shiny.gif",
+
+    "types": [
+      "Dragon",
+      "Electric"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 645,
+    "idRegional": null,
+
+    "nameEnglish": "Landorus",
+    "nameFrench": "Démétéros",
+    "nameJapanese": "ランドロス",
+
+    "regularForm": "../assets/artworkGen5/645Landorus.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Landorus.gif",
+    "shinyAnimation": "../assets/animationGen5/Landorus_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Landorus.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Landorus_Shiny.gif",
+
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 646,
+    "idRegional": null,
+
+    "nameEnglish": "Kyurem",
+    "nameFrench": "Kyurem",
+    "nameJapanese": "キュレム",
+
+    "regularForm": "../assets/artworkGen5/646Kyurem.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Kyurem.gif",
+    "shinyAnimation": "../assets/animationGen5/Kyurem_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Kyurem.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Kyurem_Shiny.gif",
+
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": false,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 647,
+    "idRegional": null,
+
+    "nameEnglish": "Keldeo",
+    "nameFrench": "Keldeo",
+    "nameJapanese": "ケルディオ",
+
+    "regularForm": "../assets/artworkGen5/647Keldeo.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Keldeo.gif",
+    "shinyAnimation": "../assets/animationGen5/Keldeo_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Keldeo.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Keldeo_Shiny.gif",
+
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": true,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 648,
+    "idRegional": null,
+
+    "nameEnglish": "Meloetta",
+    "nameFrench": "Meloetta",
+    "nameJapanese": "メロエッタ",
+
+    "regularForm": "../assets/artworkGen5/648Meloetta.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Meloetta.gif",
+    "shinyAnimation": "../assets/animationGen5/Meloetta_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Meloetta.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Meloetta_Shiny.gif",
+
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
+    "forms": [],
+
+    "shinyLocked": true,
+    "counter": null
+  },
+  {
+    "id": null,
+    "idNational": 649,
+    "idRegional": null,
+
+    "nameEnglish": "Genesect",
+    "nameFrench": "Genesect",
+    "nameJapanese": "ゲノセクト",
+
+    "regularForm": "../assets/artworkGen5/649Genesect.png",
+    "shinyForm": null,
+    "regularAnimation": "../assets/animationGen5/Genesect.gif",
+    "shinyAnimation": "../assets/animationGen5/Genesect_Shiny.gif",
+    "regularAnimationBack": "../assets/animationBackGen5/Genesect.gif",
+    "shinyAnimationBack": "../assets/animationBackGen5/Genesect_Shiny.gif",
+
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "region": "Unys",
+    "evolutionTree": [],
     "forms": [],
 
     "shinyLocked": false,
