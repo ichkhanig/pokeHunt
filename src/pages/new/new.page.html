@@ -27,7 +27,7 @@
 
   </ion-button>
 
-  <ion-infinite-scroll (ivaonInfinite)="loadMorePokemon($event)" [disabled]="count >= tmpList.length">
+  <ion-infinite-scroll (ionInfinite)="loadMorePokemon($event)" [disabled]="count >= tmpList.length">
     <ion-infinite-scroll-content loadingText="Capturing more Pokemons">
 
     </ion-infinite-scroll-content>
