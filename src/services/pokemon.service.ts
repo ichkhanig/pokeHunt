@@ -6,6 +6,7 @@ import PokemonGen3Json from '../assets/json/PokemonGen3Json.json';
 import PokemonGen4Json from '../assets/json/PokemonGen4Json.json';
 import PokemonGen5Json from '../assets/json/PokemonGen5Json.json';
 import PokemonGen6Json from '../assets/json/PokemonGen6Json.json';
+import PokemonGen7Json from '../assets/json/PokemonGen7Json.json';
 import PokemonGen8Json from '../assets/json/PokemonGen8Json.json';
 
 @Injectable({
@@ -25,6 +26,7 @@ export class PokemonService {
       .concat(PokemonGen4Json)
       .concat(PokemonGen5Json)
       .concat(PokemonGen6Json)
+      .concat(PokemonGen7Json)
       .concat(PokemonGen8Json);
   }
 

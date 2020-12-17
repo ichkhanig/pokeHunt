@@ -27,10 +27,14 @@ export class NewPage implements OnInit {
   }
 
   findPokemon(search: any) {
-    this.pkmnList = [];
-    this.count = 0;
-    this.loadMorePokemon(event);
-    return this.tmpList = this.pokemonService.findPokemon(String(search.target.value));
+    if (!Number.isNaN(Number(search.target.value)) && Number(search.target.value) != 0) {
+      // TODO anchor by idNational
+    } else {
+      this.pkmnList = [];
+      this.count = 0;
+      this.loadMorePokemon(event);
+      return this.tmpList = this.pokemonService.findPokemon(String(search.target.value));
+    }
   }
 
   getTypeColor(type: string) {
@@ -44,7 +48,6 @@ export class NewPage implements OnInit {
   loadMorePokemon(event) {
     setTimeout(() => {
       this.refresh(this.count);
-      event.target.complete();
     }, 150);
   }
 
