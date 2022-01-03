@@ -21,10 +21,8 @@ export class DexPage implements OnInit {
     this.pkmnList = this.pokemonService.getAllPokemon();
   }
 
-  showPokemonByRegion(search: string) {
-    this.pkmnList.filter((item) => {
-      return item.region.toLowerCase().indexOf(search.toLowerCase()) > -1;
-    });
+  getTypeColor(type: string) {
+    return this.pokemonService.produceTypeColor(type);
   }
 
   onSwipeLeft($event) {
@@ -32,8 +30,14 @@ export class DexPage implements OnInit {
       direction: 'right',
       duration: 200
     }
-    this.nativePageTransitions.slide(options);
+    this.nativePageTransitions.slide(options);  
     this.navController.navigateBack(['/menu']);
+  }
+
+  showPokemonByRegion(search: string) {
+    this.pkmnList.filter((item) => {
+      return item.region.toLowerCase().indexOf(search.toLowerCase()) > -1;
+    });
   }
 
 }

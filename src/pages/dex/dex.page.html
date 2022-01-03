@@ -8,8 +8,22 @@
   <ion-button (click)="showPokemonByRegion('Kanto')">Kanto</ion-button>
   <ion-button (click)="showPokemonByRegion('Galar')">Galar</ion-button>
 
-  <button class="pkmnList" *ngFor="let pkmn of pkmnList">
-    #{{pkmn.idNational}}
-    {{pkmn.nameEnglish}}
-  </button>
+  <ion-grid>
+
+    <ion-row class="evolutionRow">
+      <ion-col class="evolutionCol" *ngFor="let pkmn of pkmnList">
+        <button class="btn-new" [style]="{'background': getTypeColor(pkmn.types[0])}" routerLink="/new/{{pkmn.nameEnglish}}" routerDirection="root">
+          <img class="evolutionImg" [src]="pkmn.regularForm">
+
+          <ion-title class="imgTitle" *ngIf="pkmn.idNational < 10">#00{{pkmn.idNational}}</ion-title>
+          <ion-title class="imgTitle" *ngIf="pkmn.idNational >= 10 && pkmn.idNational < 100">#0{{pkmn.idNational}}</ion-title>
+          <ion-title class="imgTitle" *ngIf="pkmn.idNational >= 100">#{{pkmn.idNational}}</ion-title>
+
+          <ion-title class="imgTitle">{{pkmn.nameEnglish}}</ion-title>
+        </button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
 </ion-content>

@@ -6,3 +6,41 @@
   margin: 10px;
   text-align: center;
 }
+
+.evolutionRow, .formRow {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px grey;
+
+  margin: 0px 15px 70px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.evolutionCol, .formCol {
+  text-align: center;
+  width: 33%;
+  max-height: 80%;
+}
+
+.evolutionImg, .formImg {
+  width: 90%;
+  height: 90%;
+}
+
+.imgTitle {
+  text-align: center;
+  color: black;
+  opacity: 0.7;
+  font-size: medium;
+  bottom: 10px;
+  word-break: break-word;
+}
+
+.btn-new {
+  padding: 5px;
+  width: 100%;
+  border-radius: 5%;
+  box-shadow: 1px 1px 1px  grey;
+}
